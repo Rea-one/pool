@@ -1,0 +1,5 @@
+/home/vesita/library/code/pool/build/CMakeFiles/pool.dir
+/home/vesita/library/code/pool/build/CMakeFiles/edit_cache.dir
+/home/vesita/library/code/pool/build/CMakeFiles/rebuild_cache.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_autogen_timestamp_deps.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_autogen.dir

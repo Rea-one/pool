@@ -28,7 +28,8 @@ add_executable(${PROJECT_NAME}
     main.cpp
     mainwindow.cpp
     mainwindow.h
-    mainwindow.ui
+    origin.h
+    origin.ui
 )
 
 # 链接 Qt 库

@@ -81,7 +81,7 @@ class comands:
 cmd_b = comands()
 
 cmd_b_dictionary = {
-    'uic': '\\qt6cmd_tool\\/uic mainwindow.ui -o ui_mainwindow.h'
+    'uic': '\\qt6cmd_tool\\/uic origin.ui -o origin.h'
 }
 
 cmd_b.read_dictionary(cmd_b_dictionary)

@@ -1,5 +1,7 @@
 {
     "files.associations": {
-        "qcoreapplication": "cpp"
+        "qcoreapplication": "cpp",
+        "qwidget": "cpp",
+        "qfilesystemmodel": "cpp"
     }
 }
