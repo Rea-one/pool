@@ -5,11 +5,11 @@
 #include "QMessageBox"
 #include "QRegularExpression"
 
-#include "parser.h"
 #include "tree_sitter/api.h"
 
 #include "mruby.h"
 #include "mruby/compile.h"
+#include "mruby/string.h"
 
 #include "methods.h"
 
@@ -18,7 +18,7 @@
 #include "filesystem"
 #include "thread"
 #include "mutex"
-
+#include "chrono"
 
 
 class win: public QMainWindow
@@ -33,10 +33,15 @@ class win: public QMainWindow
     public:
     win();
     ~win();
-    thread_pool tasks;
-    bool run_linguist();
-    void ruby_task();
-    bool run_mruby();
+    std::string current_file_path{};
+    std::string language_type{};
+    bool language_type_detected=false;
+    bool language_detect_requirment=true;
+    mrb_state* mrb=nullptr;
+    
+    threads tasks;
+    
+    void linguist_task();
     bool close_mruby();
     std::string langua_feedback(std::string file_name);
     
@@ -59,21 +64,12 @@ class words_analysis
     std::vector<int> distribution;
     std::vector<QString> words;
 
-    void read_language_type(QString file_name);
+    std::string language_type;
+    void set_language_type(std::string tar_type);
     int declare_line;
     QList<int> ref_lines;
     QList<int> modify_lines;
     void words_distribution();
     void load_words(std::vector<QString> tar_words);
-};
-
-class block
-{
-    public:
-    std::vector<std::pair<QString, QString>> tars;
-    std::vector<QString> acts;
-
-    void init(QString words);
-
 };
 

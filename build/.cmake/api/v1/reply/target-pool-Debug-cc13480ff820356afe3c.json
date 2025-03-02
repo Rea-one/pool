@@ -40,19 +40,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 27,
+				"line" : 33,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 38,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 21,
+				"line" : 27,
 				"parent" : 0
 			},
 			{
@@ -126,13 +126,19 @@
 			{
 				"command" : 8,
 				"file" : 0,
-				"line" : 57,
+				"line" : 69,
 				"parent" : 0
 			},
 			{
 				"command" : 9,
 				"file" : 0,
-				"line" : 49,
+				"line" : 47,
+				"parent" : 0
+			},
+			{
+				"command" : 9,
+				"file" : 0,
+				"line" : 63,
 				"parent" : 0
 			}
 		]
@@ -173,11 +179,15 @@
 				},
 				{
 					"backtrace" : 17,
-					"path" : "/home/vesita/library/github/tree-sitter/lib/src"
+					"path" : "/home/vesita/library/github/tree-sitter/lib/include"
 				},
 				{
 					"backtrace" : 17,
-					"path" : "/home/vesita/library/github/tree-sitter/lib/include"
+					"path" : "/home/vesita/library/github/tree-sitter/tags/include"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/vesita/library/github/tree-sitter/highlight/include"
 				},
 				{
 					"backtrace" : 17,
@@ -308,7 +318,7 @@
 				1,
 				2,
 				7,
-				8
+				9
 			]
 		},
 		{
@@ -318,8 +328,8 @@
 				3,
 				4,
 				6,
-				9,
-				10
+				10,
+				11
 			]
 		},
 		{
@@ -327,14 +337,15 @@
 			"sourceIndexes" : 
 			[
 				5,
-				11
+				8,
+				12
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				12
+				13
 			]
 		}
 	],
@@ -387,11 +398,16 @@
 		},
 		{
 			"backtrace" : 18,
+			"path" : "run_linguist.rb",
+			"sourceGroupIndex" : 2
+		},
+		{
+			"backtrace" : 19,
 			"path" : "/home/vesita/library/github/tree-sitter/lib/src/parser.c",
 			"sourceGroupIndex" : 0
 		},
 		{
-			"backtrace" : 18,
+			"backtrace" : 19,
 			"path" : "/home/vesita/library/github/tree-sitter/lib/src/parser.h",
 			"sourceGroupIndex" : 1
 		},

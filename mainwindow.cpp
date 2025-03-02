@@ -89,12 +89,17 @@ void win::on_file_doubleClicked(const QModelIndex &index)
 {
     // 获取完整文件路径
     QString filePath = model.filePath(index);
-    
+    current_file_path = filePath.toStdString();
+    language_type_detected = false;
+
     // 判断是否是文件（过滤目录）
     if(!model.isDir(index))
     {
         QFile file(filePath);
-
+        tasks.add_thread([this]()
+        {
+            linguist_task();
+        });
         if(file.open(QIODevice::ReadOnly | QIODevice::Text))
         {
             // 使用QTextStream读取确保编码正确
@@ -111,44 +116,106 @@ void win::on_file_doubleClicked(const QModelIndex &index)
     }
 }
 
-void ruby_task()
+void win::linguist_task()
 {
-
-}
-
-bool win::run_linguist()
-{
-    tasks.start();
-
-    // 创建一个任务
-    QFuture<void> future = QtConcurrent::run(this, &win::ruby_task);
-
-    // 等待任务完成
-    future.waitForFinished();
-
-    return true;
-}
-
-bool win::run_mruby()
-{
-    mrb_state *mrb = mrb_open();
-    if (!mrb) {
-        qWarning() << "Failed to initialize mruby.";
+    std::unique_lock<std::mutex> lock(ruby_lock);
+    mrb = mrb_open();
+    if (mrb == NULL)
+    {
+        ui.statusbar->showMessage("mruby 初始化失败", 3000);
         return;
     }
+
+    // 加载 linguist.rb 脚本
+    FILE *linguist_pack = fopen("linguist.rb", "r");
+    if (!linguist_pack)
+    {
+        ui.statusbar->showMessage("无法加载 linguist.rb", 3000);
+        mrb_close(mrb);
+        return;
+    }
+    mrb_load_file(mrb, linguist_pack);
+    fclose(linguist_pack);
+
+    while (language_detect_requirment)
+    {
+        if (!language_type_detected)
+        {
+            if (current_file_path.empty())
+            {
+                ui.statusbar->showMessage("请选择文件", 3000);
+            }
+            else
+            {
+                FILE *file = fopen(current_file_path.c_str(), "r");
+                if (!file)
+                {
+                    ui.statusbar->showMessage("无法打开文件: " + QString::fromStdString(current_file_path), 3000);
+                    continue;
+                }
+
+                // 执行 Ruby 脚本并获取结果
+                mrb_value result = mrb_load_file(mrb, file);
+                fclose(file);
+
+                // 检查是否有异常
+                if (mrb->exc)
+                {
+                    mrb_value exception = mrb_funcall(mrb, mrb_obj_value(mrb->exc), "inspect", 0);
+                    qWarning() << "Error in linguist_task:" << QString::fromUtf8(mrb_string_value_ptr(mrb, exception));
+                    mrb->exc = nullptr; // 清除异常
+                    continue;
+                }
+
+                // 处理返回值
+                QString language;
+                if (mrb_string_p(result))
+                {
+                    language = QString::fromUtf8(mrb_string_value_ptr(mrb, result));
+                }
+                else
+                {
+                    language = "Unknown";
+                }
+                std::unique_lock<std::mutex> lock(data_lock);
+                // 更新状态栏并存储检测结果
+                ui.statusbar->showMessage("检测到语言: " + language, 3000);
+                language_type = language.toStdString(); // 存储到成员变量
+                language_type_detected = true; // 标记已检测
+            }
+        }
+        std::this_thread::sleep_for(std::chrono::seconds(1));
+    }
+
+    // 释放 mruby 资源
+    mrb_close(mrb);
 }
-
-std::string win::langua_feedback(std::string file_name)
-{
-
-}
-
 
 words_analysis::words_analysis()
 {
     distribution = std::vector<int>(256, 0);
     parser = ts_parser_new();
 }
+
+void words_analysis::set_language_type(std::string tar_type)
+{
+    // 根据传入的语言名称获取 Tree-sitter 语言定义
+    const TSLanguage *language = ts_language_for_name(tar_type.c_str());
+    
+    if (language == nullptr)
+    {
+        // 如果语言未找到，可以记录错误或抛出异常
+        qWarning() << "Tree-sitter language not found for:" << QString::fromStdString(tar_type);
+        return;
+    }
+
+    // 设置解析器的语言类型
+    ts_parser_set_language(parser, language);
+
+    // 更新类成员变量
+    language_type = tar_type;
+}
+
 
 void words_analysis::load_words(std::vector<QString> tar_words)
 {
@@ -161,9 +228,4 @@ void words_analysis::words_distribution()
     {
         distribution[fast_index(elem.toLatin1()[0])] ++;
     }
-}
-
-void words_analysis::read_language_type(QString file_name)
-{
-    
 }
