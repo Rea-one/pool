@@ -25,7 +25,7 @@ bool win::to_file_tree()
 {
     ui.file_tree->setModel(&model);
     ui.file_tree->setRootIndex(model.index(QDir::currentPath()));
-    ui.sidebar->setCurrentIndex(1);
+    ui.wfile->setCurrentIndex(1);
 
     ui.file_tree->setColumnWidth(0, 250);  // 文件名列
     ui.file_tree->setColumnHidden(1, true); // 隐藏大小列
@@ -91,18 +91,79 @@ void win::on_file_doubleClicked(const QModelIndex &index)
     QString filePath = model.filePath(index);
     
     // 判断是否是文件（过滤目录）
-    if(!model.isDir(index)){
+    if(!model.isDir(index))
+    {
         QFile file(filePath);
-        if(file.open(QIODevice::ReadOnly | QIODevice::Text)){
+
+        if(file.open(QIODevice::ReadOnly | QIODevice::Text))
+        {
             // 使用QTextStream读取确保编码正确
             QTextStream in(&file);
             ui.editer->setPlainText(in.readAll());
             file.close();
-            
             // 更新状态栏显示
             ui.statusbar->showMessage("已打开: " + filePath, 3000);
-        } else {
+        }
+        else
+        {
             ui.statusbar->showMessage("无法打开文件: " + filePath, 3000);
         }
     }
+}
+
+void ruby_task()
+{
+
+}
+
+bool win::run_linguist()
+{
+    tasks.start();
+
+    // 创建一个任务
+    QFuture<void> future = QtConcurrent::run(this, &win::ruby_task);
+
+    // 等待任务完成
+    future.waitForFinished();
+
+    return true;
+}
+
+bool win::run_mruby()
+{
+    mrb_state *mrb = mrb_open();
+    if (!mrb) {
+        qWarning() << "Failed to initialize mruby.";
+        return;
+    }
+}
+
+std::string win::langua_feedback(std::string file_name)
+{
+
+}
+
+
+words_analysis::words_analysis()
+{
+    distribution = std::vector<int>(256, 0);
+    parser = ts_parser_new();
+}
+
+void words_analysis::load_words(std::vector<QString> tar_words)
+{
+    words = tar_words;
+}
+
+void words_analysis::words_distribution()
+{
+    for (auto elem : words)
+    {
+        distribution[fast_index(elem.toLatin1()[0])] ++;
+    }
+}
+
+void words_analysis::read_language_type(QString file_name)
+{
+    
 }

@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/vesita/library/code/pool/main.cpp" "CMakeFiles/pool.dir/main.cpp.o" "gcc" "CMakeFiles/pool.dir/main.cpp.o.d"
   "/home/vesita/library/code/pool/mainwindow.cpp" "CMakeFiles/pool.dir/mainwindow.cpp.o" "gcc" "CMakeFiles/pool.dir/mainwindow.cpp.o.d"
+  "/home/vesita/library/code/pool/methods.cpp" "CMakeFiles/pool.dir/methods.cpp.o" "gcc" "CMakeFiles/pool.dir/methods.cpp.o.d"
   "/home/vesita/library/code/pool/build/pool_autogen/mocs_compilation.cpp" "CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.o" "gcc" "CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.o.d"
   )
 

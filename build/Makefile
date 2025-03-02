@@ -203,6 +203,30 @@ mainwindow.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/mainwindow.cpp.s
 .PHONY : mainwindow.cpp.s
 
+methods.o: methods.cpp.o
+.PHONY : methods.o
+
+# target to build an object file
+methods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/methods.cpp.o
+.PHONY : methods.cpp.o
+
+methods.i: methods.cpp.i
+.PHONY : methods.i
+
+# target to preprocess a source file
+methods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/methods.cpp.i
+.PHONY : methods.cpp.i
+
+methods.s: methods.cpp.s
+.PHONY : methods.s
+
+# target to generate assembly for a file
+methods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/methods.cpp.s
+.PHONY : methods.cpp.s
+
 pool_autogen/mocs_compilation.o: pool_autogen/mocs_compilation.cpp.o
 .PHONY : pool_autogen/mocs_compilation.o
 
@@ -244,6 +268,9 @@ help:
 	@echo "... mainwindow.o"
 	@echo "... mainwindow.i"
 	@echo "... mainwindow.s"
+	@echo "... methods.o"
+	@echo "... methods.i"
+	@echo "... methods.s"
 	@echo "... pool_autogen/mocs_compilation.o"
 	@echo "... pool_autogen/mocs_compilation.i"
 	@echo "... pool_autogen/mocs_compilation.s"

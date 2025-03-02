@@ -18,9 +18,10 @@
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
-#include <QtWidgets/QSpacerItem>
+#include <QtWidgets/QSplitter>
 #include <QtWidgets/QStackedWidget>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTabWidget>
 #include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QTextEdit>
 #include <QtWidgets/QTreeView>
@@ -35,33 +36,32 @@ public:
     QWidget *centralwidget;
     QGridLayout *gridLayout;
     QStackedWidget *steps;
-    QWidget *page_3;
-    QPushButton *pushButton_5;
-    QWidget *page_4;
-    QGridLayout *gridLayout_5;
-    QHBoxLayout *horizontalLayout;
-    QGroupBox *groupBox_2;
-    QVBoxLayout *verticalLayout;
-    QPushButton *gfile_tree;
-    QPushButton *glogics;
-    QPushButton *pushButton_3;
-    QPushButton *pushButton_4;
-    QSpacerItem *verticalSpacer;
-    QStackedWidget *sidebar;
-    QWidget *page_2;
-    QGridLayout *gridLayout_3;
-    QGroupBox *groupBox;
-    QGridLayout *gridLayout_4;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QSpacerItem *verticalSpacer_2;
-    QTextBrowser *messages;
-    QWidget *page;
+    QWidget *Welcome;
+    QPushButton *acts;
+    QWidget *Activaties;
     QGridLayout *gridLayout_2;
+    QVBoxLayout *verticalLayout;
+    QSplitter *splitter;
+    QTabWidget *sidebar;
+    QWidget *gfile_tree;
+    QGridLayout *gridLayout_3;
+    QStackedWidget *wfile;
+    QWidget *file_welcome;
+    QGridLayout *gridLayout_4;
+    QTextBrowser *textBrowser;
+    QGroupBox *groupBox;
+    QHBoxLayout *horizontalLayout;
+    QPushButton *pushButton;
+    QWidget *file_tree_page;
+    QGridLayout *gridLayout_5;
     QTreeView *file_tree;
-    QWidget *logics;
+    QWidget *glogics;
+    QWidget *horizontalLayoutWidget;
+    QHBoxLayout *horizontalLayout_4;
+    QTextBrowser *textBrowser_2;
     QTextEdit *editer;
-    QGroupBox *groupBox_3;
+    QGroupBox *scripts;
+    QPushButton *pushButton_2;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -69,139 +69,163 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(800, 600);
+        MainWindow->resize(694, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         gridLayout = new QGridLayout(centralwidget);
         gridLayout->setObjectName("gridLayout");
         steps = new QStackedWidget(centralwidget);
         steps->setObjectName("steps");
-        page_3 = new QWidget();
-        page_3->setObjectName("page_3");
-        pushButton_5 = new QPushButton(page_3);
-        pushButton_5->setObjectName("pushButton_5");
-        pushButton_5->setGeometry(QRect(350, 180, 88, 26));
-        steps->addWidget(page_3);
-        page_4 = new QWidget();
-        page_4->setObjectName("page_4");
-        gridLayout_5 = new QGridLayout(page_4);
-        gridLayout_5->setObjectName("gridLayout_5");
-        horizontalLayout = new QHBoxLayout();
-        horizontalLayout->setObjectName("horizontalLayout");
-        groupBox_2 = new QGroupBox(page_4);
-        groupBox_2->setObjectName("groupBox_2");
-        groupBox_2->setEnabled(true);
-        verticalLayout = new QVBoxLayout(groupBox_2);
+        Welcome = new QWidget();
+        Welcome->setObjectName("Welcome");
+        acts = new QPushButton(Welcome);
+        acts->setObjectName("acts");
+        acts->setGeometry(QRect(350, 180, 88, 26));
+        steps->addWidget(Welcome);
+        Activaties = new QWidget();
+        Activaties->setObjectName("Activaties");
+        gridLayout_2 = new QGridLayout(Activaties);
+        gridLayout_2->setObjectName("gridLayout_2");
+        verticalLayout = new QVBoxLayout();
         verticalLayout->setObjectName("verticalLayout");
-        gfile_tree = new QPushButton(groupBox_2);
-        gfile_tree->setObjectName("gfile_tree");
-
-        verticalLayout->addWidget(gfile_tree);
-
-        glogics = new QPushButton(groupBox_2);
-        glogics->setObjectName("glogics");
-
-        verticalLayout->addWidget(glogics);
-
-        pushButton_3 = new QPushButton(groupBox_2);
-        pushButton_3->setObjectName("pushButton_3");
-
-        verticalLayout->addWidget(pushButton_3);
-
-        pushButton_4 = new QPushButton(groupBox_2);
-        pushButton_4->setObjectName("pushButton_4");
-
-        verticalLayout->addWidget(pushButton_4);
-
-        verticalSpacer = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
-
-        verticalLayout->addItem(verticalSpacer);
-
-
-        horizontalLayout->addWidget(groupBox_2);
-
-        sidebar = new QStackedWidget(page_4);
+        splitter = new QSplitter(Activaties);
+        splitter->setObjectName("splitter");
+        splitter->setOrientation(Qt::Orientation::Horizontal);
+        sidebar = new QTabWidget(splitter);
         sidebar->setObjectName("sidebar");
-        page_2 = new QWidget();
-        page_2->setObjectName("page_2");
-        gridLayout_3 = new QGridLayout(page_2);
+        QSizePolicy sizePolicy(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Preferred);
+        sizePolicy.setHorizontalStretch(0);
+        sizePolicy.setVerticalStretch(0);
+        sizePolicy.setHeightForWidth(sidebar->sizePolicy().hasHeightForWidth());
+        sidebar->setSizePolicy(sizePolicy);
+        sidebar->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
+        sidebar->setTabPosition(QTabWidget::TabPosition::West);
+        sidebar->setTabShape(QTabWidget::TabShape::Rounded);
+        sidebar->setTabsClosable(false);
+        sidebar->setMovable(false);
+        sidebar->setTabBarAutoHide(true);
+        gfile_tree = new QWidget();
+        gfile_tree->setObjectName("gfile_tree");
+        gridLayout_3 = new QGridLayout(gfile_tree);
         gridLayout_3->setObjectName("gridLayout_3");
-        groupBox = new QGroupBox(page_2);
-        groupBox->setObjectName("groupBox");
-        gridLayout_4 = new QGridLayout(groupBox);
+        wfile = new QStackedWidget(gfile_tree);
+        wfile->setObjectName("wfile");
+        file_welcome = new QWidget();
+        file_welcome->setObjectName("file_welcome");
+        gridLayout_4 = new QGridLayout(file_welcome);
         gridLayout_4->setObjectName("gridLayout_4");
+        textBrowser = new QTextBrowser(file_welcome);
+        textBrowser->setObjectName("textBrowser");
+
+        gridLayout_4->addWidget(textBrowser, 0, 0, 1, 1);
+
+        groupBox = new QGroupBox(file_welcome);
+        groupBox->setObjectName("groupBox");
+        horizontalLayout = new QHBoxLayout(groupBox);
+        horizontalLayout->setObjectName("horizontalLayout");
         pushButton = new QPushButton(groupBox);
         pushButton->setObjectName("pushButton");
 
-        gridLayout_4->addWidget(pushButton, 0, 0, 1, 1);
-
-        pushButton_2 = new QPushButton(groupBox);
-        pushButton_2->setObjectName("pushButton_2");
-
-        gridLayout_4->addWidget(pushButton_2, 1, 0, 1, 1);
-
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
-
-        gridLayout_4->addItem(verticalSpacer_2, 2, 0, 1, 1);
+        horizontalLayout->addWidget(pushButton);
 
 
-        gridLayout_3->addWidget(groupBox, 1, 0, 1, 1);
+        gridLayout_4->addWidget(groupBox, 1, 0, 1, 1);
 
-        messages = new QTextBrowser(page_2);
-        messages->setObjectName("messages");
-
-        gridLayout_3->addWidget(messages, 0, 0, 1, 1);
-
-        sidebar->addWidget(page_2);
-        page = new QWidget();
-        page->setObjectName("page");
-        gridLayout_2 = new QGridLayout(page);
-        gridLayout_2->setObjectName("gridLayout_2");
-        file_tree = new QTreeView(page);
+        wfile->addWidget(file_welcome);
+        file_tree_page = new QWidget();
+        file_tree_page->setObjectName("file_tree_page");
+        gridLayout_5 = new QGridLayout(file_tree_page);
+        gridLayout_5->setObjectName("gridLayout_5");
+        file_tree = new QTreeView(file_tree_page);
         file_tree->setObjectName("file_tree");
 
-        gridLayout_2->addWidget(file_tree, 0, 0, 1, 1);
+        gridLayout_5->addWidget(file_tree, 0, 0, 1, 1);
 
-        sidebar->addWidget(page);
-        logics = new QWidget();
-        logics->setObjectName("logics");
-        sidebar->addWidget(logics);
+        wfile->addWidget(file_tree_page);
 
-        horizontalLayout->addWidget(sidebar);
+        gridLayout_3->addWidget(wfile, 0, 0, 1, 1);
 
+        sidebar->addTab(gfile_tree, QString());
+        glogics = new QWidget();
+        glogics->setObjectName("glogics");
+        sidebar->addTab(glogics, QString());
+        splitter->addWidget(sidebar);
+        horizontalLayoutWidget = new QWidget(splitter);
+        horizontalLayoutWidget->setObjectName("horizontalLayoutWidget");
+        horizontalLayout_4 = new QHBoxLayout(horizontalLayoutWidget);
+        horizontalLayout_4->setSpacing(0);
+        horizontalLayout_4->setObjectName("horizontalLayout_4");
+        horizontalLayout_4->setContentsMargins(0, 0, 0, 0);
+        textBrowser_2 = new QTextBrowser(horizontalLayoutWidget);
+        textBrowser_2->setObjectName("textBrowser_2");
+        QSizePolicy sizePolicy1(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Expanding);
+        sizePolicy1.setHorizontalStretch(0);
+        sizePolicy1.setVerticalStretch(0);
+        sizePolicy1.setHeightForWidth(textBrowser_2->sizePolicy().hasHeightForWidth());
+        textBrowser_2->setSizePolicy(sizePolicy1);
+        textBrowser_2->setMaximumSize(QSize(30, 16777215));
 
-        gridLayout_5->addLayout(horizontalLayout, 0, 0, 1, 1);
+        horizontalLayout_4->addWidget(textBrowser_2);
 
-        editer = new QTextEdit(page_4);
+        editer = new QTextEdit(horizontalLayoutWidget);
         editer->setObjectName("editer");
+        editer->setEnabled(true);
+        sizePolicy.setHeightForWidth(editer->sizePolicy().hasHeightForWidth());
+        editer->setSizePolicy(sizePolicy);
+        editer->setSizeAdjustPolicy(QAbstractScrollArea::SizeAdjustPolicy::AdjustIgnored);
 
-        gridLayout_5->addWidget(editer, 0, 1, 1, 1);
+        horizontalLayout_4->addWidget(editer);
 
-        groupBox_3 = new QGroupBox(page_4);
-        groupBox_3->setObjectName("groupBox_3");
+        splitter->addWidget(horizontalLayoutWidget);
 
-        gridLayout_5->addWidget(groupBox_3, 1, 0, 1, 2);
+        verticalLayout->addWidget(splitter);
 
-        steps->addWidget(page_4);
+        scripts = new QGroupBox(Activaties);
+        scripts->setObjectName("scripts");
+        QSizePolicy sizePolicy2(QSizePolicy::Policy::Preferred, QSizePolicy::Policy::Fixed);
+        sizePolicy2.setHorizontalStretch(0);
+        sizePolicy2.setVerticalStretch(0);
+        sizePolicy2.setHeightForWidth(scripts->sizePolicy().hasHeightForWidth());
+        scripts->setSizePolicy(sizePolicy2);
+        scripts->setMinimumSize(QSize(0, 60));
+        scripts->setMaximumSize(QSize(16777215, 60));
+        scripts->setAutoFillBackground(false);
+        pushButton_2 = new QPushButton(scripts);
+        pushButton_2->setObjectName("pushButton_2");
+        pushButton_2->setGeometry(QRect(12, 33, 20, 20));
+        QSizePolicy sizePolicy3(QSizePolicy::Policy::Fixed, QSizePolicy::Policy::Fixed);
+        sizePolicy3.setHorizontalStretch(0);
+        sizePolicy3.setVerticalStretch(0);
+        sizePolicy3.setHeightForWidth(pushButton_2->sizePolicy().hasHeightForWidth());
+        pushButton_2->setSizePolicy(sizePolicy3);
+        pushButton_2->setMinimumSize(QSize(20, 20));
+        pushButton_2->setMaximumSize(QSize(20, 20));
+
+        verticalLayout->addWidget(scripts);
+
+
+        gridLayout_2->addLayout(verticalLayout, 0, 0, 1, 1);
+
+        steps->addWidget(Activaties);
 
         gridLayout->addWidget(steps, 0, 0, 1, 1);
 
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 27));
+        menubar->setGeometry(QRect(0, 0, 694, 27));
         MainWindow->setMenuBar(menubar);
         statusbar = new QStatusBar(MainWindow);
         statusbar->setObjectName("statusbar");
         MainWindow->setStatusBar(statusbar);
 
         retranslateUi(MainWindow);
-        QObject::connect(gfile_tree, SIGNAL(clicked()), MainWindow, SLOT(to_file_tree()));
-        QObject::connect(glogics, SIGNAL(clicked()), MainWindow, SLOT(to_logics()));
-        QObject::connect(pushButton_5, SIGNAL(clicked()), MainWindow, SLOT(enter()));
+        QObject::connect(acts, SIGNAL(clicked()), MainWindow, SLOT(enter()));
+        QObject::connect(pushButton, SIGNAL(clicked()), MainWindow, SLOT(to_file_tree()));
 
-        steps->setCurrentIndex(1);
+        steps->setCurrentIndex(0);
         sidebar->setCurrentIndex(0);
+        wfile->setCurrentIndex(0);
 
 
         QMetaObject::connectSlotsByName(MainWindow);
@@ -210,16 +234,21 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        pushButton_5->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
-        groupBox_2->setTitle(QCoreApplication::translate("MainWindow", "GroupBox", nullptr));
-        gfile_tree->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
-        glogics->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
-        pushButton_4->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
-        groupBox->setTitle(QCoreApplication::translate("MainWindow", "\345\217\257\344\273\245\344\275\277\347\224\250\347\232\204\345\212\237\350\203\275", nullptr));
+        acts->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
+        textBrowser->setHtml(QCoreApplication::translate("MainWindow", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Ubuntu Sans'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\347\233\256\345\211\215\346\262\241\346\234\211\351\200\211\346\213\251\346\226\207\344\273\266\350\267\257\345\276\204\357\274\214\351\200\211\346\213\251\346\226\207\344\273\266\345\244\271\344\273\245\347\273\247\347\273\255</p></body></html>", nullptr));
+        groupBox->setTitle(QCoreApplication::translate("MainWindow", "GroupBox", nullptr));
         pushButton->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
+        sidebar->setTabText(sidebar->indexOf(gfile_tree), QCoreApplication::translate("MainWindow", "Tab 1", nullptr));
+        sidebar->setTabText(sidebar->indexOf(glogics), QCoreApplication::translate("MainWindow", "Tab 2", nullptr));
+        scripts->setTitle(QCoreApplication::translate("MainWindow", "GroupBox", nullptr));
         pushButton_2->setText(QCoreApplication::translate("MainWindow", "PushButton", nullptr));
-        groupBox_3->setTitle(QCoreApplication::translate("MainWindow", "GroupBox", nullptr));
     } // retranslateUi
 
 };

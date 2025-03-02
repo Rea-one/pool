@@ -410,9 +410,21 @@
 			null
 		],
 		[
+			"/home/vesita/library/code/pool/methods.h",
+			"MU",
+			"EWIEGA46WW/moc_methods.cpp",
+			null
+		],
+		[
 			"/home/vesita/library/code/pool/origin.h",
 			"MU",
 			"EWIEGA46WW/moc_origin.cpp",
+			null
+		],
+		[
+			"/home/vesita/library/github/tree-sitter/lib/src/parser.h",
+			"MU",
+			"Q3WJ6WHFSA/moc_parser.cpp",
 			null
 		]
 	],
@@ -429,6 +441,10 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"/home/vesita/library/github/tree-sitter/lib/src",
+		"/home/vesita/library/github/tree-sitter/lib/include",
+		"/home/vesita/library/github/mruby/include",
+		"/home/vesita/library/github/linguist/lib",
 		"/home/vesita/Qt/6.8.2/gcc_64/include/QtCore",
 		"/home/vesita/Qt/6.8.2/gcc_64/include",
 		"/home/vesita/Qt/6.8.2/gcc_64/mkspecs/linux-g++",
@@ -476,7 +492,13 @@
 	"SOURCES" : 
 	[
 		[ "/home/vesita/library/code/pool/main.cpp", "MU", null ],
-		[ "/home/vesita/library/code/pool/mainwindow.cpp", "MU", null ]
+		[ "/home/vesita/library/code/pool/mainwindow.cpp", "MU", null ],
+		[ "/home/vesita/library/code/pool/methods.cpp", "MU", null ],
+		[
+			"/home/vesita/library/github/tree-sitter/lib/src/parser.c",
+			"MU",
+			null
+		]
 	],
 	"UIC_OPTIONS" : [],
 	"UIC_SEARCH_PATHS" : [],

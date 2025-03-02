@@ -1,33 +1,75 @@
 /home/vesita/library/code/pool/build/pool_autogen/EWIEGA46WW/moc_mainwindow.cpp: /home/vesita/library/code/pool/mainwindow.h \
   /home/vesita/library/code/pool/build/pool_autogen/moc_predefs.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QDeadlineTimer \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QHash \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QList \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QMap \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QMutex \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QObject \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QRegularExpression \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QString \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QStringList \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QTextStream \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QVariant \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QtCore \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QtCoreDepends \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20algorithm.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20chrono.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20functional.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20iterator.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20map.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20memory.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20type_traits.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q20vector.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q23functional.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q23utility.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/q26numeric.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qabstractanimation.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qabstracteventdispatcher.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qabstractitemmodel.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qabstractnativeeventfilter.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qabstractproxymodel.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qalgorithms.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qanimationgroup.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qanystringview.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qapplicationstatic.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qarraydata.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qarraydataops.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qarraydatapointer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qassert.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qassociativeiterable.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qatomic.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qatomic_cxx11.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qatomicscopedvaluerollback.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbasicatomic.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbasictimer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbindingstorage.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbitarray.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbuffer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbytearray.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayalgorithms.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbytearraylist.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbytearraymatcher.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qbytearrayview.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcache.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcalendar.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcborarray.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcborcommon.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcbormap.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcborstream.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcborstreamreader.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcborstreamwriter.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcborvalue.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qchar.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qchronotimer.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcollator.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcommandlineoption.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcommandlineparser.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcompare.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcompare_impl.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcomparehelpers.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcompilerdetection.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qconcatenatetablesproxymodel.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qconfig.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qconstructormacros.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcontainerfwd.h \
@@ -37,70 +79,132 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcoreapplication_platform.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcoreevent.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qcryptographichash.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdarwinhelpers.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdatastream.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdatetime.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdeadlinetimer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdebug.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdir.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdiriterator.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qdirlisting.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qeasingcurve.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qelapsedtimer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qendian.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qeventloop.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qexception.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qexceptionhandling.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfactoryinterface.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfile.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfiledevice.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfileinfo.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfileselector.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfilesystemwatcher.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qflags.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfloat16.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qforeach.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfunctionaltools_impl.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfunctionpointer.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfuture.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfuture_impl.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfutureinterface.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfuturesynchronizer.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qfuturewatcher.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qgenericatomic.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qglobal.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qglobalstatic.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qhash.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qhashfunctions.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qidentityproxymodel.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qiodevice.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qiodevicebase.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qitemselectionmodel.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qiterable.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qiterator.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qjsonarray.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qjsondocument.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qjsonobject.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qjsonvalue.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringmatcher.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlatin1stringview.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlibrary.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlibraryinfo.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qline.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlist.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlocale.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlockfile.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qlogging.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qloggingcategory.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmalloc.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmap.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmargins.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmath.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmessageauthenticationcode.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmetacontainer.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmetaobject.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmetatype.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmimedata.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmimedatabase.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmimetype.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qminmax.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qmutex.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qnamespace.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qnativeinterface.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qnumeric.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qobject.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qobject_impl.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qobjectcleanuphandler.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qobjectdefs_impl.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qoperatingsystemversion.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qoverload.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpair.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qparallelanimationgroup.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpauseanimation.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpermissions.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qplugin.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpluginloader.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpoint.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpointer.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qprocess.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qprocessordetection.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpromise.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qproperty.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpropertyanimation.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qpropertyprivate.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qqueue.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qrandom.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qreadwritelock.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qrect.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qrefcount.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qresource.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qresultstore.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qrunnable.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsavefile.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qscopedpointer.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qscopedvaluerollback.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qscopeguard.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsemaphore.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsequentialanimationgroup.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsequentialiterable.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qset.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsettings.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qshareddata.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qshareddata_impl.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsharedmemory.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsharedpointer_impl.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsignalmapper.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsimd.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsize.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsocketnotifier.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsortfilterproxymodel.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qspan.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstack.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstandardpaths.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstaticlatin1stringmatcher.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstorageinfo.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstring.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringalgorithms.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringbuilder.h \
@@ -108,6 +212,7 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringconverter_base.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringfwd.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringlist.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringlistmodel.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringliteral.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringmatcher.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qstringtokenizer.h \
@@ -115,32 +220,60 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qswap.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsysinfo.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsystemdetection.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qsystemsemaphore.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtaggedpointer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtclasshelpermacros.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtconfiginclude.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtconfigmacros.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtcore-config.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtcoreexports.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtcoreversion.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationdefinitions.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtdeprecationmarkers.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtemporarydir.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtemporaryfile.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtenvironmentvariables.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtextboundaryfinder.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtextstream.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qthread.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qthreadpool.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qthreadstorage.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtimeline.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtimer.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtimezone.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtipccommon.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtmetamacros.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtnoop.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtpreprocessorsupport.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtranslator.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtransposeproxymodel.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtresource.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtsan_impl.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtsymbolmacros.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qttranslation.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qttypetraits.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtversion.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtversionchecks.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtypeinfo.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtyperevision.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qtypes.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qurl.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qurlquery.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qutf8stringview.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/quuid.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qvariant.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qvariantanimation.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qvarianthash.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qvariantlist.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qvariantmap.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qvarlengtharray.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qvector.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qversionnumber.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qversiontagging.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qwaitcondition.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qwineventnotifier.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qxmlstream.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qxpfunctional.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qxptype_traits.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qyieldcpu.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtGui/QFileSystemModel \
@@ -186,10 +319,12 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QHeaderView \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QMainWindow \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QMenuBar \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QMessageBox \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QPushButton \
-  /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QSpacerItem \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QSplitter \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QStackedWidget \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QStatusBar \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QTabWidget \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QTextBrowser \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QTextEdit \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/QTreeView \
@@ -204,6 +339,7 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qapplication.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qboxlayout.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qdialog.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qdialogbuttonbox.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qfiledialog.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qframe.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qgridlayout.h \
@@ -214,10 +350,12 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qmainwindow.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qmenu.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qmenubar.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qmessagebox.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qpushbutton.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qrubberband.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qsizepolicy.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qslider.h \
+  /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qsplitter.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qstackedwidget.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qstatusbar.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qstyle.h \
@@ -231,6 +369,7 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsexports.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qtwidgetsglobal.h \
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
+  /home/vesita/library/code/pool/methods.h \
   /home/vesita/library/code/pool/origin.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \
@@ -248,6 +387,7 @@
   /usr/include/c++/13/bits/allocated_ptr.h \
   /usr/include/c++/13/bits/allocator.h \
   /usr/include/c++/13/bits/atomic_base.h \
+  /usr/include/c++/13/bits/atomic_futex.h \
   /usr/include/c++/13/bits/atomic_lockfree_defines.h \
   /usr/include/c++/13/bits/basic_ios.h \
   /usr/include/c++/13/bits/basic_ios.tcc \
@@ -300,6 +440,8 @@
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
   /usr/include/c++/13/bits/quoted_string.h \
+  /usr/include/c++/13/bits/random.h \
+  /usr/include/c++/13/bits/random.tcc \
   /usr/include/c++/13/bits/range_access.h \
   /usr/include/c++/13/bits/refwrap.h \
   /usr/include/c++/13/bits/requires_hosted.h \
@@ -310,6 +452,8 @@
   /usr/include/c++/13/bits/sstream.tcc \
   /usr/include/c++/13/bits/std_abs.h \
   /usr/include/c++/13/bits/std_function.h \
+  /usr/include/c++/13/bits/std_mutex.h \
+  /usr/include/c++/13/bits/std_thread.h \
   /usr/include/c++/13/bits/stl_algo.h \
   /usr/include/c++/13/bits/stl_algobase.h \
   /usr/include/c++/13/bits/stl_bvector.h \
@@ -336,6 +480,7 @@
   /usr/include/c++/13/bits/string_view.tcc \
   /usr/include/c++/13/bits/stringfwd.h \
   /usr/include/c++/13/bits/uniform_int_dist.h \
+  /usr/include/c++/13/bits/unique_lock.h \
   /usr/include/c++/13/bits/unique_ptr.h \
   /usr/include/c++/13/bits/unordered_map.h \
   /usr/include/c++/13/bits/uses_allocator.h \
@@ -351,6 +496,7 @@
   /usr/include/c++/13/cmath \
   /usr/include/c++/13/codecvt \
   /usr/include/c++/13/compare \
+  /usr/include/c++/13/condition_variable \
   /usr/include/c++/13/cstddef \
   /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
@@ -371,6 +517,7 @@
   /usr/include/c++/13/ext/type_traits.h \
   /usr/include/c++/13/filesystem \
   /usr/include/c++/13/functional \
+  /usr/include/c++/13/future \
   /usr/include/c++/13/initializer_list \
   /usr/include/c++/13/iomanip \
   /usr/include/c++/13/ios \
@@ -382,6 +529,7 @@
   /usr/include/c++/13/locale \
   /usr/include/c++/13/map \
   /usr/include/c++/13/memory \
+  /usr/include/c++/13/mutex \
   /usr/include/c++/13/new \
   /usr/include/c++/13/numeric \
   /usr/include/c++/13/optional \
@@ -390,6 +538,7 @@
   /usr/include/c++/13/pstl/glue_algorithm_defs.h \
   /usr/include/c++/13/pstl/glue_memory_defs.h \
   /usr/include/c++/13/pstl/glue_numeric_defs.h \
+  /usr/include/c++/13/random \
   /usr/include/c++/13/ratio \
   /usr/include/c++/13/sstream \
   /usr/include/c++/13/stdexcept \
@@ -515,6 +664,7 @@
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr-default.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/gthr.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/messages_members.h \
+  /usr/include/x86_64-linux-gnu/c++/13/bits/opt_random.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/os_defines.h \
   /usr/include/x86_64-linux-gnu/c++/13/bits/time_members.h \
   /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
@@ -522,6 +672,100 @@
   /usr/include/x86_64-linux-gnu/sys/cdefs.h \
   /usr/include/x86_64-linux-gnu/sys/select.h \
   /usr/include/x86_64-linux-gnu/sys/types.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/adxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxbf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxcomplexintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxfp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/amxtileintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124fmapsintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx5124vnniwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bf16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bitalgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512bwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512cdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512dqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512erintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512fp16vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512ifmavlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512pfintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmi2vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vbmivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlbwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vldqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vnnivlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vp2intersectvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avx512vpopcntdqvlintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxifmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxneconvertintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniint8intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/avxvnniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmi2intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/bmiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cldemoteintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clflushoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clwbintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/clzerointrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/cmpccxaddintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/emmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/enqcmdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/f16cintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fmaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/fxsrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/gfniintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/hresetintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/ia32intrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/immintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/keylockerintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lwpintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/lzcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mm_malloc.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/movdirintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/mwaitxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pconfigintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pkuintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/pmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/popcntintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchiintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/prfchwintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/raointintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rdseedintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/rtmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/serializeintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/sgxintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/shaintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/smmintrin.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdarg.h \
   /usr/lib/gcc/x86_64-linux-gnu/13/include/stdbool.h \
-  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/stddef.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tbmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/tsxldtrkintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/uintrintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vaesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/vpclmulqdqintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/waitpkgintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wbnoinvdintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/wmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/x86gprintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xmmintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavecintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsaveoptintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xsavesintrin.h \
+  /usr/lib/gcc/x86_64-linux-gnu/13/include/xtestintrin.h

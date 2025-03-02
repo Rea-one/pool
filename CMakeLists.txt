@@ -30,6 +30,8 @@ add_executable(${PROJECT_NAME}
     mainwindow.h
     origin.h
     origin.ui
+    methods.h
+    methods.cpp
 )
 
 # 链接 Qt 库
@@ -37,4 +39,24 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     Qt6::Core
     Qt6::Gui
     Qt6::Widgets
+)
+
+set(TREE_SITTER_SOURCES
+    /home/vesita/library/github/tree-sitter/lib/src/parser.c
+    /home/vesita/library/github/tree-sitter/lib/src/parser.h
+)
+
+target_sources(${PROJECT_NAME} PRIVATE 
+    ${TREE_SITTER_SOURCES}
+)
+
+# 设置C标准并保持C++标准
+set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD_REQUIRED ON)
+
+target_include_directories(${PROJECT_NAME} PRIVATE
+    /home/vesita/library/github/tree-sitter/lib/src   # parser.h所在目录
+    /home/vesita/library/github/tree-sitter/lib/include
+    /home/vesita/library/github/mruby/include
+    /home/vesita/library/github/linguist/lib
 )

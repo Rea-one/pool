@@ -6,6 +6,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/pool.dir/main.cpp.o.d"
   "CMakeFiles/pool.dir/mainwindow.cpp.o"
   "CMakeFiles/pool.dir/mainwindow.cpp.o.d"
+  "CMakeFiles/pool.dir/methods.cpp.o"
+  "CMakeFiles/pool.dir/methods.cpp.o.d"
   "CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.o"
   "CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.o.d"
   "pool"
