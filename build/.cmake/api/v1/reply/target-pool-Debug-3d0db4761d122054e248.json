@@ -191,6 +191,22 @@
 				},
 				{
 					"backtrace" : 17,
+					"path" : "/home/vesita/library/github/tree-sitter-cpp/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/vesita/library/github/tree-sitter-c/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/vesita/library/github/tree-sitter-python/src"
+				},
+				{
+					"backtrace" : 17,
+					"path" : "/home/vesita/library/github/tree-sitter-javascript/src"
+				},
+				{
+					"backtrace" : 17,
 					"path" : "/home/vesita/library/github/mruby/include"
 				},
 				{

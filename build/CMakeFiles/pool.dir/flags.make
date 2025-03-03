@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/g++
 CXX_DEFINES = -DQT_CORE_LIB -DQT_GUI_LIB -DQT_WIDGETS_LIB
 
-CXX_INCLUDES = -I/home/vesita/library/code/pool/build/pool_autogen/include -I/home/vesita/library/github/tree-sitter/lib/include -I/home/vesita/library/github/tree-sitter/tags/include -I/home/vesita/library/github/tree-sitter/highlight/include -I/home/vesita/library/github/mruby/include -I/home/vesita/library/github/linguist/lib -isystem /home/vesita/Qt/6.8.2/gcc_64/include/QtCore -isystem /home/vesita/Qt/6.8.2/gcc_64/include -isystem /home/vesita/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -isystem /home/vesita/Qt/6.8.2/gcc_64/include/QtGui -isystem /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets
+CXX_INCLUDES = -I/home/vesita/library/code/pool/build/pool_autogen/include -I/home/vesita/library/github/tree-sitter/lib/include -I/home/vesita/library/github/tree-sitter/tags/include -I/home/vesita/library/github/tree-sitter/highlight/include -I/home/vesita/library/github/tree-sitter-cpp/src -I/home/vesita/library/github/tree-sitter-c/src -I/home/vesita/library/github/tree-sitter-python/src -I/home/vesita/library/github/tree-sitter-javascript/src -I/home/vesita/library/github/mruby/include -I/home/vesita/library/github/linguist/lib -isystem /home/vesita/Qt/6.8.2/gcc_64/include/QtCore -isystem /home/vesita/Qt/6.8.2/gcc_64/include -isystem /home/vesita/Qt/6.8.2/gcc_64/mkspecs/linux-g++ -isystem /home/vesita/Qt/6.8.2/gcc_64/include/QtGui -isystem /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets
 
 CXX_FLAGS = -g -std=gnu++17 -fPIC
 

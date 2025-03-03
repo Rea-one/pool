@@ -8,7 +8,10 @@ win::win()
     ui.editer->setAcceptRichText(false);       // 禁用富文本
     ui.editer->setLineWrapMode(QTextEdit::NoWrap); // 禁用自动换行
     connect(ui.file_tree, &QTreeView::doubleClicked, this, &win::on_file_doubleClicked);
-
+    tasks.add_thread([this]()
+    {
+        analysis_task();
+    });
 }
 win::~win()
 {
@@ -182,6 +185,7 @@ void win::linguist_task()
                 ui.statusbar->showMessage("检测到语言: " + language, 3000);
                 language_type = language.toStdString(); // 存储到成员变量
                 language_type_detected = true; // 标记已检测
+                analysis_operation = false; // 任务标记
             }
         }
         std::this_thread::sleep_for(std::chrono::seconds(1));
@@ -189,6 +193,21 @@ void win::linguist_task()
 
     // 释放 mruby 资源
     mrb_close(mrb);
+}
+
+void win::analysis_task()
+{
+    std::unique_lock<std::mutex> lock(parser_lock);
+    words_analysis *analysis = new words_analysis();
+
+    while (words_analysis_requirment)
+    {
+        if (language_type_detected && !analysis_operation)
+        {
+            std::unique_lock<std::mutex> lock(data_lock);
+            analysis->set_language_type(language_type);
+        }
+    }
 }
 
 words_analysis::words_analysis()
@@ -200,7 +219,7 @@ words_analysis::words_analysis()
 void words_analysis::set_language_type(std::string tar_type)
 {
     // 根据传入的语言名称获取 Tree-sitter 语言定义
-    const TSLanguage *language = ts_language_for_name(tar_type.c_str());
+    const TSLanguage *language = string_to_TSLanguage(tar_type);
     
     if (language == nullptr)
     {
@@ -228,4 +247,16 @@ void words_analysis::words_distribution()
     {
         distribution[fast_index(elem.toLatin1()[0])] ++;
     }
+}
+
+
+
+const TSLanguage *string_to_TSLanguage(const std::string &language_name)
+{
+    auto it = language_map.find(language_name);
+    if (it != language_map.end())
+    {
+        return it->second;
+    }
+    return nullptr; // 未找到对应语言
 }

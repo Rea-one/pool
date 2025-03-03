@@ -70,6 +70,10 @@ target_include_directories(${PROJECT_NAME} PRIVATE
     /home/vesita/library/github/tree-sitter/lib/include
     /home/vesita/library/github/tree-sitter/tags/include
     /home/vesita/library/github/tree-sitter/highlight/include
+    /home/vesita/library/github/tree-sitter-cpp/src
+    /home/vesita/library/github/tree-sitter-c/src
+    /home/vesita/library/github/tree-sitter-python/src
+    /home/vesita/library/github/tree-sitter-javascript/src
     /home/vesita/library/github/mruby/include
     /home/vesita/library/github/linguist/lib
 )

@@ -19,6 +19,23 @@
 #include "thread"
 #include "mutex"
 #include "chrono"
+#include "unordered_map"
+
+extern const TSLanguage *tree_sitter_c();
+extern const TSLanguage *tree_sitter_cpp();
+extern const TSLanguage *tree_sitter_javascript();
+extern const TSLanguage *tree_sitter_python();
+
+std::unordered_map<std::string, const TSLanguage *> language_map =
+{
+    {"c", tree_sitter_c()},
+    {"cpp", tree_sitter_cpp()},
+    {"javascript", tree_sitter_javascript()},
+    {"python", tree_sitter_python()},
+    // 添加更多语言...
+};
+
+const TSLanguage *string_to_TSLanguage(const std::string &language_name);
 
 
 class win: public QMainWindow
@@ -33,17 +50,21 @@ class win: public QMainWindow
     public:
     win();
     ~win();
+    std::mutex ruby_lock;
+    std::mutex data_lock;
+    std::mutex parser_lock;
     std::string current_file_path{};
     std::string language_type{};
     bool language_type_detected=false;
     bool language_detect_requirment=true;
+    bool words_analysis_requirment=false;
+    bool analysis_operation=false;
     mrb_state* mrb=nullptr;
     
     threads tasks;
     
     void linguist_task();
-    bool close_mruby();
-    std::string langua_feedback(std::string file_name);
+    void analysis_task();
     
 
     public slots:
