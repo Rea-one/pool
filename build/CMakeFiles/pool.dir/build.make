@@ -141,6 +141,12 @@ pool: CMakeFiles/pool.dir/mainwindow.cpp.o
 pool: CMakeFiles/pool.dir/methods.cpp.o
 pool: CMakeFiles/pool.dir/build.make
 pool: /home/vesita/Qt/6.8.2/gcc_64/lib/libQt6Widgets.so.6.8.2
+pool: /home/vesita/library/github/mruby/build/host/lib/libmruby.a
+pool: /home/vesita/library/github/tree-sitter/libtree-sitter.a
+pool: /home/vesita/library/github/tree-sitter-c/libtree-sitter-c.a
+pool: /home/vesita/library/github/tree-sitter-cpp/libtree-sitter-cpp.a
+pool: /home/vesita/library/github/tree-sitter-python/libtree-sitter-python.a
+pool: /home/vesita/library/github/tree-sitter-javascript/libtree-sitter-javascript.a
 pool: /home/vesita/Qt/6.8.2/gcc_64/lib/libQt6Gui.so.6.8.2
 pool: /usr/lib/x86_64-linux-gnu/libGLX.so
 pool: /usr/lib/x86_64-linux-gnu/libOpenGL.so

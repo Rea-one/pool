@@ -1,6 +1,5 @@
 file(REMOVE_RECURSE
   "CMakeFiles/pool_autogen"
-  "pool_autogen/include/ui_origin.h"
   "pool_autogen/mocs_compilation.cpp"
   "pool_autogen/timestamp"
 )

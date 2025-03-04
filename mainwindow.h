@@ -21,19 +21,16 @@
 #include "chrono"
 #include "unordered_map"
 
-extern const TSLanguage *tree_sitter_c();
-extern const TSLanguage *tree_sitter_cpp();
-extern const TSLanguage *tree_sitter_javascript();
-extern const TSLanguage *tree_sitter_python();
-
-std::unordered_map<std::string, const TSLanguage *> language_map =
+extern "C"
 {
-    {"c", tree_sitter_c()},
-    {"cpp", tree_sitter_cpp()},
-    {"javascript", tree_sitter_javascript()},
-    {"python", tree_sitter_python()},
-    // 添加更多语言...
-};
+    const TSLanguage *tree_sitter_c();
+    const TSLanguage *tree_sitter_cpp();
+    const TSLanguage *tree_sitter_javascript();
+    const TSLanguage *tree_sitter_python();
+}
+
+
+extern std::unordered_map<std::string, const TSLanguage *> language_map;
 
 const TSLanguage *string_to_TSLanguage(const std::string &language_name);
 

@@ -494,21 +494,21 @@ CMakeFiles/pool.dir/main.cpp.o: /home/vesita/library/code/pool/main.cpp \
  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QRegularExpression \
  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/qregularexpression.h \
  /home/vesita/library/github/tree-sitter/lib/include/tree_sitter/api.h \
- /home/vesita/library/github/mruby/include/mruby.h \
- /home/vesita/library/github/mruby/include/mrbconf.h \
- /home/vesita/library/github/mruby/include/mruby/common.h \
- /home/vesita/library/github/mruby/include/mruby/value.h \
- /home/vesita/library/github/mruby/include/mruby/common.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby.h \
+ /home/vesita/library/github/mruby/build/host/include/mrbconf.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/common.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/value.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/common.h \
  /usr/include/inttypes.h \
- /home/vesita/library/github/mruby/include/mruby/object.h \
- /home/vesita/library/github/mruby/include/mruby/boxing_word.h \
- /home/vesita/library/github/mruby/include/mruby/gc.h \
- /home/vesita/library/github/mruby/include/mruby/version.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/object.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/boxing_word.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/gc.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/version.h \
  /usr/include/c++/13/math.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /home/vesita/library/github/mruby/include/mruby/compile.h \
- /home/vesita/library/github/mruby/include/mruby/mempool.h \
- /home/vesita/library/github/mruby/include/mruby/string.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/compile.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/mempool.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/string.h \
  /home/vesita/library/code/pool/methods.h \
  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QtCore \
  /home/vesita/Qt/6.8.2/gcc_64/include/QtCore/QtCoreDepends \

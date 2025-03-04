@@ -14,6 +14,17 @@ int fast_index(char c)
 };
 
 
+threads::threads()
+{
+    
+};
+
+threads::~threads()
+{
+    wait_threads();
+    pool.clear();
+};
+
 void threads::add_thread(std::function<void()> func)
 {
     pool.emplace_back(func);

@@ -371,17 +371,17 @@
   /home/vesita/Qt/6.8.2/gcc_64/include/QtWidgets/qwidget.h \
   /home/vesita/library/code/pool/methods.h \
   /home/vesita/library/code/pool/origin.h \
-  /home/vesita/library/github/mruby/include/mrbconf.h \
-  /home/vesita/library/github/mruby/include/mruby.h \
-  /home/vesita/library/github/mruby/include/mruby/boxing_word.h \
-  /home/vesita/library/github/mruby/include/mruby/common.h \
-  /home/vesita/library/github/mruby/include/mruby/compile.h \
-  /home/vesita/library/github/mruby/include/mruby/gc.h \
-  /home/vesita/library/github/mruby/include/mruby/mempool.h \
-  /home/vesita/library/github/mruby/include/mruby/object.h \
-  /home/vesita/library/github/mruby/include/mruby/string.h \
-  /home/vesita/library/github/mruby/include/mruby/value.h \
-  /home/vesita/library/github/mruby/include/mruby/version.h \
+  /home/vesita/library/github/mruby/build/host/include/mrbconf.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/boxing_word.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/common.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/compile.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/gc.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/mempool.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/object.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/string.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/value.h \
+  /home/vesita/library/github/mruby/build/host/include/mruby/version.h \
   /home/vesita/library/github/tree-sitter/lib/include/tree_sitter/api.h \
   /usr/include/alloca.h \
   /usr/include/asm-generic/errno-base.h \

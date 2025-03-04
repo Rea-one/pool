@@ -1,5 +1,14 @@
 #include "mainwindow.h"
 
+std::unordered_map<std::string, const TSLanguage *> language_map =
+{
+    {"c", tree_sitter_c()},
+    {"cpp", tree_sitter_cpp()},
+    {"javascript", tree_sitter_javascript()},
+    {"python", tree_sitter_python()},
+    // 添加更多语言...
+};
+
 win::win()
 {
     ui.setupUi(this);
@@ -123,6 +132,7 @@ void win::linguist_task()
 {
     std::unique_lock<std::mutex> lock(ruby_lock);
     mrb = mrb_open();
+    
     if (mrb == NULL)
     {
         ui.statusbar->showMessage("mruby 初始化失败", 3000);
@@ -130,10 +140,10 @@ void win::linguist_task()
     }
 
     // 加载 linguist.rb 脚本
-    FILE *linguist_pack = fopen("linguist.rb", "r");
+    FILE *linguist_pack = fopen("github-linguist", "r");
     if (!linguist_pack)
     {
-        ui.statusbar->showMessage("无法加载 linguist.rb", 3000);
+        ui.statusbar->showMessage("无法加载linguist库", 3000);
         mrb_close(mrb);
         return;
     }

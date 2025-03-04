@@ -785,16 +785,16 @@ CMakeFiles/pool.dir/methods.cpp.o: \
  /usr/include/c++/13/queue /usr/include/c++/13/deque \
  /usr/include/c++/13/bits/stl_deque.h /usr/include/c++/13/bits/deque.tcc \
  /usr/include/c++/13/bits/stl_queue.h \
- /home/vesita/library/github/mruby/include/mruby.h \
- /home/vesita/library/github/mruby/include/mrbconf.h \
- /home/vesita/library/github/mruby/include/mruby/common.h \
- /home/vesita/library/github/mruby/include/mruby/value.h \
- /home/vesita/library/github/mruby/include/mruby/common.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby.h \
+ /home/vesita/library/github/mruby/build/host/include/mrbconf.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/common.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/value.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/common.h \
  /usr/include/inttypes.h \
- /home/vesita/library/github/mruby/include/mruby/object.h \
- /home/vesita/library/github/mruby/include/mruby/boxing_word.h \
- /home/vesita/library/github/mruby/include/mruby/gc.h \
- /home/vesita/library/github/mruby/include/mruby/version.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/object.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/boxing_word.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/gc.h \
+ /home/vesita/library/github/mruby/build/host/include/mruby/version.h \
  /usr/include/c++/13/math.h \
  /usr/lib/gcc/x86_64-linux-gnu/13/include/float.h \
- /home/vesita/library/github/mruby/include/mruby/string.h
+ /home/vesita/library/github/mruby/build/host/include/mruby/string.h
