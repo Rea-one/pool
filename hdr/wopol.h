@@ -10,5 +10,6 @@ class wopol: public QObject
     std::string state_message{};
 
     void read_file(std::string file_path);
-
+    void write_file(std::string file_path);
+    
 }
