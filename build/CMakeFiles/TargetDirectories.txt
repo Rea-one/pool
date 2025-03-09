@@ -1,4 +1,17 @@
 /home/vesita/library/code/pool/build/CMakeFiles/pool.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_qmltyperegistration.dir
+/home/vesita/library/code/pool/build/CMakeFiles/all_qmltyperegistrations.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_other_files.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_qmllint.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_qmllint_json.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_qmllint_module.dir
+/home/vesita/library/code/pool/build/CMakeFiles/all_qmllint.dir
+/home/vesita/library/code/pool/build/CMakeFiles/all_qmllint_json.dir
+/home/vesita/library/code/pool/build/CMakeFiles/all_qmllint_module.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_copy_qml.dir
+/home/vesita/library/code/pool/build/CMakeFiles/pool_copy_res.dir
+/home/vesita/library/code/pool/build/CMakeFiles/module_pool_aotstats_target.dir
+/home/vesita/library/code/pool/build/CMakeFiles/all_aotstats.dir
 /home/vesita/library/code/pool/build/CMakeFiles/edit_cache.dir
 /home/vesita/library/code/pool/build/CMakeFiles/rebuild_cache.dir
 /home/vesita/library/code/pool/build/CMakeFiles/pool_autogen_timestamp_deps.dir

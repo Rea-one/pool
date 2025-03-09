@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/ssc/Pool">/home/vesita/library/code/pool/build/Pool</file>
+
+  </qresource>
+</RCC>

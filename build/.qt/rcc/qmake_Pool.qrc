@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/ssc/Pool">
+    <file alias="qmldir">/home/vesita/library/code/pool/build/Pool/qmldir</file>
+  </qresource>
+</RCC>
+

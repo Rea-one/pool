@@ -60,6 +60,7 @@ set(__QT_DEPLOY_QT_DEBUG_POSTFIX "")
 set(__qt_deploy_support_files
     "/home/vesita/library/code/pool/build/.qt/QtDeployTargets.cmake"
     "/home/vesita/Qt/6.8.2/gcc_64/lib/cmake/Qt6Core/Qt6CoreDeploySupport.cmake"
+    "/home/vesita/Qt/6.8.2/gcc_64/lib/cmake/Qt6Qml/Qt6QmlDeploySupport.cmake"
 )
 foreach(__qt_deploy_support_file IN LISTS __qt_deploy_support_files)
     include("${__qt_deploy_support_file}")

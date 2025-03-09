@@ -1,0 +1,4 @@
+module Pool
+typeinfo pool.qmltypes
+prefer :/ssc/Pool/
+

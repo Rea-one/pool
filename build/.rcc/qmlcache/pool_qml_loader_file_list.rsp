@@ -1,0 +1,5 @@
+--resource
+/home/vesita/library/code/pool/build/.qt/rcc/qmake_Pool.qrc
+--resource
+/home/vesita/library/code/pool/build/.qt/rcc/pool_raw_qml_0.qrc
+/ssc/Pool/ssc/pool.qml

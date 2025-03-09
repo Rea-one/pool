@@ -1,11 +1,5 @@
 {
     "files.associations": {
-        "qcoreapplication": "cpp",
-        "qwidget": "cpp",
-        "qfilesystemmodel": "cpp",
-        "error_costs.h": "c",
-        "reduce_action.h": "c",
-        "reusable_node.h": "c",
         "array": "cpp",
         "atomic": "cpp",
         "bit": "cpp",
@@ -17,6 +11,7 @@
         "cmath": "cpp",
         "codecvt": "cpp",
         "compare": "cpp",
+        "complex": "cpp",
         "concepts": "cpp",
         "condition_variable": "cpp",
         "cstdarg": "cpp",
@@ -51,10 +46,12 @@
         "type_traits": "cpp",
         "utility": "cpp",
         "format": "cpp",
+        "fstream": "cpp",
         "future": "cpp",
         "initializer_list": "cpp",
         "iomanip": "cpp",
         "iosfwd": "cpp",
+        "iostream": "cpp",
         "istream": "cpp",
         "limits": "cpp",
         "mutex": "cpp",
@@ -72,6 +69,9 @@
         "thread": "cpp",
         "cinttypes": "cpp",
         "typeinfo": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "qtcore": "cpp",
+        "qqmlapplicationengine": "cpp",
+        "qtquick": "cpp"
     }
 }

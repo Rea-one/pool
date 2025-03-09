@@ -130,6 +130,175 @@ pool/fast:
 .PHONY : pool/fast
 
 #=============================================================================
+# Target rules for targets named pool_qmltyperegistration
+
+# Build rule for target.
+pool_qmltyperegistration: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pool_qmltyperegistration
+.PHONY : pool_qmltyperegistration
+
+# fast build rule for target.
+pool_qmltyperegistration/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_qmltyperegistration.dir/build.make CMakeFiles/pool_qmltyperegistration.dir/build
+.PHONY : pool_qmltyperegistration/fast
+
+#=============================================================================
+# Target rules for targets named all_qmltyperegistrations
+
+# Build rule for target.
+all_qmltyperegistrations: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmltyperegistrations
+.PHONY : all_qmltyperegistrations
+
+# fast build rule for target.
+all_qmltyperegistrations/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmltyperegistrations.dir/build.make CMakeFiles/all_qmltyperegistrations.dir/build
+.PHONY : all_qmltyperegistrations/fast
+
+#=============================================================================
+# Target rules for targets named pool_other_files
+
+# Build rule for target.
+pool_other_files: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pool_other_files
+.PHONY : pool_other_files
+
+# fast build rule for target.
+pool_other_files/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_other_files.dir/build.make CMakeFiles/pool_other_files.dir/build
+.PHONY : pool_other_files/fast
+
+#=============================================================================
+# Target rules for targets named pool_qmllint
+
+# Build rule for target.
+pool_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pool_qmllint
+.PHONY : pool_qmllint
+
+# fast build rule for target.
+pool_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_qmllint.dir/build.make CMakeFiles/pool_qmllint.dir/build
+.PHONY : pool_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named pool_qmllint_json
+
+# Build rule for target.
+pool_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pool_qmllint_json
+.PHONY : pool_qmllint_json
+
+# fast build rule for target.
+pool_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_qmllint_json.dir/build.make CMakeFiles/pool_qmllint_json.dir/build
+.PHONY : pool_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named pool_qmllint_module
+
+# Build rule for target.
+pool_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pool_qmllint_module
+.PHONY : pool_qmllint_module
+
+# fast build rule for target.
+pool_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_qmllint_module.dir/build.make CMakeFiles/pool_qmllint_module.dir/build
+.PHONY : pool_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint
+
+# Build rule for target.
+all_qmllint: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint
+.PHONY : all_qmllint
+
+# fast build rule for target.
+all_qmllint/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint.dir/build.make CMakeFiles/all_qmllint.dir/build
+.PHONY : all_qmllint/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_json
+
+# Build rule for target.
+all_qmllint_json: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_json
+.PHONY : all_qmllint_json
+
+# fast build rule for target.
+all_qmllint_json/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_json.dir/build.make CMakeFiles/all_qmllint_json.dir/build
+.PHONY : all_qmllint_json/fast
+
+#=============================================================================
+# Target rules for targets named all_qmllint_module
+
+# Build rule for target.
+all_qmllint_module: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_qmllint_module
+.PHONY : all_qmllint_module
+
+# fast build rule for target.
+all_qmllint_module/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_qmllint_module.dir/build.make CMakeFiles/all_qmllint_module.dir/build
+.PHONY : all_qmllint_module/fast
+
+#=============================================================================
+# Target rules for targets named pool_copy_qml
+
+# Build rule for target.
+pool_copy_qml: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pool_copy_qml
+.PHONY : pool_copy_qml
+
+# fast build rule for target.
+pool_copy_qml/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_copy_qml.dir/build.make CMakeFiles/pool_copy_qml.dir/build
+.PHONY : pool_copy_qml/fast
+
+#=============================================================================
+# Target rules for targets named pool_copy_res
+
+# Build rule for target.
+pool_copy_res: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 pool_copy_res
+.PHONY : pool_copy_res
+
+# fast build rule for target.
+pool_copy_res/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_copy_res.dir/build.make CMakeFiles/pool_copy_res.dir/build
+.PHONY : pool_copy_res/fast
+
+#=============================================================================
+# Target rules for targets named module_pool_aotstats_target
+
+# Build rule for target.
+module_pool_aotstats_target: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 module_pool_aotstats_target
+.PHONY : module_pool_aotstats_target
+
+# fast build rule for target.
+module_pool_aotstats_target/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/module_pool_aotstats_target.dir/build.make CMakeFiles/module_pool_aotstats_target.dir/build
+.PHONY : module_pool_aotstats_target/fast
+
+#=============================================================================
+# Target rules for targets named all_aotstats
+
+# Build rule for target.
+all_aotstats: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all_aotstats
+.PHONY : all_aotstats
+
+# fast build rule for target.
+all_aotstats/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/all_aotstats.dir/build.make CMakeFiles/all_aotstats.dir/build
+.PHONY : all_aotstats/fast
+
+#=============================================================================
 # Target rules for targets named pool_autogen_timestamp_deps
 
 # Build rule for target.
@@ -155,77 +324,101 @@ pool_autogen/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool_autogen.dir/build.make CMakeFiles/pool_autogen.dir/build
 .PHONY : pool_autogen/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+build/.qt/rcc/qrc_pool_raw_qml_0.o: build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_pool_raw_qml_0.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/main.cpp.o
-.PHONY : main.cpp.o
+build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o
+.PHONY : build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+build/.qt/rcc/qrc_pool_raw_qml_0.i: build/.qt/rcc/qrc_pool_raw_qml_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_pool_raw_qml_0.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/main.cpp.i
-.PHONY : main.cpp.i
+build/.qt/rcc/qrc_pool_raw_qml_0.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.i
+.PHONY : build/.qt/rcc/qrc_pool_raw_qml_0.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+build/.qt/rcc/qrc_pool_raw_qml_0.s: build/.qt/rcc/qrc_pool_raw_qml_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_pool_raw_qml_0.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/main.cpp.s
-.PHONY : main.cpp.s
+build/.qt/rcc/qrc_pool_raw_qml_0.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.s
+.PHONY : build/.qt/rcc/qrc_pool_raw_qml_0.cpp.s
 
-mainwindow.o: mainwindow.cpp.o
-.PHONY : mainwindow.o
+build/.qt/rcc/qrc_qmake_Pool.o: build/.qt/rcc/qrc_qmake_Pool.cpp.o
+.PHONY : build/.qt/rcc/qrc_qmake_Pool.o
 
 # target to build an object file
-mainwindow.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/mainwindow.cpp.o
-.PHONY : mainwindow.cpp.o
+build/.qt/rcc/qrc_qmake_Pool.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o
+.PHONY : build/.qt/rcc/qrc_qmake_Pool.cpp.o
 
-mainwindow.i: mainwindow.cpp.i
-.PHONY : mainwindow.i
+build/.qt/rcc/qrc_qmake_Pool.i: build/.qt/rcc/qrc_qmake_Pool.cpp.i
+.PHONY : build/.qt/rcc/qrc_qmake_Pool.i
 
 # target to preprocess a source file
-mainwindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/mainwindow.cpp.i
-.PHONY : mainwindow.cpp.i
+build/.qt/rcc/qrc_qmake_Pool.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.i
+.PHONY : build/.qt/rcc/qrc_qmake_Pool.cpp.i
 
-mainwindow.s: mainwindow.cpp.s
-.PHONY : mainwindow.s
+build/.qt/rcc/qrc_qmake_Pool.s: build/.qt/rcc/qrc_qmake_Pool.cpp.s
+.PHONY : build/.qt/rcc/qrc_qmake_Pool.s
 
 # target to generate assembly for a file
-mainwindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/mainwindow.cpp.s
-.PHONY : mainwindow.cpp.s
+build/.qt/rcc/qrc_qmake_Pool.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.s
+.PHONY : build/.qt/rcc/qrc_qmake_Pool.cpp.s
 
-methods.o: methods.cpp.o
-.PHONY : methods.o
+build/.rcc/qmlcache/pool_qmlcache_loader.o: build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o
+.PHONY : build/.rcc/qmlcache/pool_qmlcache_loader.o
 
 # target to build an object file
-methods.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/methods.cpp.o
-.PHONY : methods.cpp.o
+build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o
+.PHONY : build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o
 
-methods.i: methods.cpp.i
-.PHONY : methods.i
+build/.rcc/qmlcache/pool_qmlcache_loader.i: build/.rcc/qmlcache/pool_qmlcache_loader.cpp.i
+.PHONY : build/.rcc/qmlcache/pool_qmlcache_loader.i
 
 # target to preprocess a source file
-methods.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/methods.cpp.i
-.PHONY : methods.cpp.i
+build/.rcc/qmlcache/pool_qmlcache_loader.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.i
+.PHONY : build/.rcc/qmlcache/pool_qmlcache_loader.cpp.i
 
-methods.s: methods.cpp.s
-.PHONY : methods.s
+build/.rcc/qmlcache/pool_qmlcache_loader.s: build/.rcc/qmlcache/pool_qmlcache_loader.cpp.s
+.PHONY : build/.rcc/qmlcache/pool_qmlcache_loader.s
 
 # target to generate assembly for a file
-methods.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/methods.cpp.s
-.PHONY : methods.cpp.s
+build/.rcc/qmlcache/pool_qmlcache_loader.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.s
+.PHONY : build/.rcc/qmlcache/pool_qmlcache_loader.cpp.s
+
+build/.rcc/qmlcache/pool_ssc/pool_qml.o: build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/pool_ssc/pool_qml.o
+
+# target to build an object file
+build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o
+.PHONY : build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o
+
+build/.rcc/qmlcache/pool_ssc/pool_qml.i: build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/pool_ssc/pool_qml.i
+
+# target to preprocess a source file
+build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.i
+.PHONY : build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.i
+
+build/.rcc/qmlcache/pool_ssc/pool_qml.s: build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/pool_ssc/pool_qml.s
+
+# target to generate assembly for a file
+build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.s
+.PHONY : build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.s
 
 pool_autogen/mocs_compilation.o: pool_autogen/mocs_compilation.cpp.o
 .PHONY : pool_autogen/mocs_compilation.o
@@ -251,6 +444,102 @@ pool_autogen/mocs_compilation.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.s
 .PHONY : pool_autogen/mocs_compilation.cpp.s
 
+pool_qmltyperegistrations.o: pool_qmltyperegistrations.cpp.o
+.PHONY : pool_qmltyperegistrations.o
+
+# target to build an object file
+pool_qmltyperegistrations.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o
+.PHONY : pool_qmltyperegistrations.cpp.o
+
+pool_qmltyperegistrations.i: pool_qmltyperegistrations.cpp.i
+.PHONY : pool_qmltyperegistrations.i
+
+# target to preprocess a source file
+pool_qmltyperegistrations.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.i
+.PHONY : pool_qmltyperegistrations.cpp.i
+
+pool_qmltyperegistrations.s: pool_qmltyperegistrations.cpp.s
+.PHONY : pool_qmltyperegistrations.s
+
+# target to generate assembly for a file
+pool_qmltyperegistrations.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.s
+.PHONY : pool_qmltyperegistrations.cpp.s
+
+src/main.o: src/main.cpp.o
+.PHONY : src/main.o
+
+# target to build an object file
+src/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/main.cpp.o
+.PHONY : src/main.cpp.o
+
+src/main.i: src/main.cpp.i
+.PHONY : src/main.i
+
+# target to preprocess a source file
+src/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/main.cpp.i
+.PHONY : src/main.cpp.i
+
+src/main.s: src/main.cpp.s
+.PHONY : src/main.s
+
+# target to generate assembly for a file
+src/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/main.cpp.s
+.PHONY : src/main.cpp.s
+
+src/manager.o: src/manager.cpp.o
+.PHONY : src/manager.o
+
+# target to build an object file
+src/manager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/manager.cpp.o
+.PHONY : src/manager.cpp.o
+
+src/manager.i: src/manager.cpp.i
+.PHONY : src/manager.i
+
+# target to preprocess a source file
+src/manager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/manager.cpp.i
+.PHONY : src/manager.cpp.i
+
+src/manager.s: src/manager.cpp.s
+.PHONY : src/manager.s
+
+# target to generate assembly for a file
+src/manager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/manager.cpp.s
+.PHONY : src/manager.cpp.s
+
+src/methods.o: src/methods.cpp.o
+.PHONY : src/methods.o
+
+# target to build an object file
+src/methods.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/methods.cpp.o
+.PHONY : src/methods.cpp.o
+
+src/methods.i: src/methods.cpp.i
+.PHONY : src/methods.i
+
+# target to preprocess a source file
+src/methods.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/methods.cpp.i
+.PHONY : src/methods.cpp.i
+
+src/methods.s: src/methods.cpp.s
+.PHONY : src/methods.s
+
+# target to generate assembly for a file
+src/methods.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/methods.cpp.s
+.PHONY : src/methods.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -259,21 +548,49 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... all_aotstats"
+	@echo "... all_qmllint"
+	@echo "... all_qmllint_json"
+	@echo "... all_qmllint_module"
+	@echo "... all_qmltyperegistrations"
+	@echo "... module_pool_aotstats_target"
 	@echo "... pool_autogen"
 	@echo "... pool_autogen_timestamp_deps"
+	@echo "... pool_copy_qml"
+	@echo "... pool_copy_res"
+	@echo "... pool_other_files"
+	@echo "... pool_qmllint"
+	@echo "... pool_qmllint_json"
+	@echo "... pool_qmllint_module"
+	@echo "... pool_qmltyperegistration"
 	@echo "... pool"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
-	@echo "... mainwindow.o"
-	@echo "... mainwindow.i"
-	@echo "... mainwindow.s"
-	@echo "... methods.o"
-	@echo "... methods.i"
-	@echo "... methods.s"
+	@echo "... build/.qt/rcc/qrc_pool_raw_qml_0.o"
+	@echo "... build/.qt/rcc/qrc_pool_raw_qml_0.i"
+	@echo "... build/.qt/rcc/qrc_pool_raw_qml_0.s"
+	@echo "... build/.qt/rcc/qrc_qmake_Pool.o"
+	@echo "... build/.qt/rcc/qrc_qmake_Pool.i"
+	@echo "... build/.qt/rcc/qrc_qmake_Pool.s"
+	@echo "... build/.rcc/qmlcache/pool_qmlcache_loader.o"
+	@echo "... build/.rcc/qmlcache/pool_qmlcache_loader.i"
+	@echo "... build/.rcc/qmlcache/pool_qmlcache_loader.s"
+	@echo "... build/.rcc/qmlcache/pool_ssc/pool_qml.o"
+	@echo "... build/.rcc/qmlcache/pool_ssc/pool_qml.i"
+	@echo "... build/.rcc/qmlcache/pool_ssc/pool_qml.s"
 	@echo "... pool_autogen/mocs_compilation.o"
 	@echo "... pool_autogen/mocs_compilation.i"
 	@echo "... pool_autogen/mocs_compilation.s"
+	@echo "... pool_qmltyperegistrations.o"
+	@echo "... pool_qmltyperegistrations.i"
+	@echo "... pool_qmltyperegistrations.s"
+	@echo "... src/main.o"
+	@echo "... src/main.i"
+	@echo "... src/main.s"
+	@echo "... src/manager.o"
+	@echo "... src/manager.i"
+	@echo "... src/manager.s"
+	@echo "... src/methods.o"
+	@echo "... src/methods.i"
+	@echo "... src/methods.s"
 .PHONY : help
 
 
