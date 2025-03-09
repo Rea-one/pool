@@ -8,5 +8,23 @@ Window
     visible: true
     width: 800
     height: 600
-    
+
+    Row
+    {
+        TreeViewDelegate
+        {
+            id: ftree
+
+            width: 200
+            height: 200
+        }
+
+        TableView
+        {
+            id: editor
+            anchors.left: rightMargin
+            width: 200
+            height: 200
+        }
+    }
 }

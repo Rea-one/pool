@@ -7,13 +7,13 @@ class bist
     std::string light{};
 
     bist(std::string dark, std::string light);
-}
+};
 
 
 class cross_message
 {
     public:
-    std::string state_message{}
+    std::string state_message{};
     std::vector<bool> states{};
     std::vector<std::string> messgaes{};
 

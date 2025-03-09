@@ -12,6 +12,7 @@
 #include <chrono>
 #include <algorithm>
 #include <ctime>
+#include <condition_variable>
 
 
 
@@ -28,6 +29,7 @@ class threads
     std::vector<std::thread> pool;
 
     void add_thread(std::function<void()> act);
+    void depart_run(std::function<void()> act);
     void wait_threads();
 };
 
@@ -61,3 +63,6 @@ public:
         return func(data); // 在锁保护下执行用户提供的函数
     }
 };
+
+
+std::vector<std::string> split_string(std::string tar, std::string departer);

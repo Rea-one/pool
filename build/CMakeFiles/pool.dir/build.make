@@ -151,10 +151,52 @@ CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/build/pool_autogen/mocs_compilation.cpp -o CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.s
 
+CMakeFiles/pool.dir/src/cross_message.cpp.o: CMakeFiles/pool.dir/flags.make
+CMakeFiles/pool.dir/src/cross_message.cpp.o: /home/vesita/library/code/pool/src/cross_message.cpp
+CMakeFiles/pool.dir/src/cross_message.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pool.dir/src/cross_message.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/cross_message.cpp.o -MF CMakeFiles/pool.dir/src/cross_message.cpp.o.d -o CMakeFiles/pool.dir/src/cross_message.cpp.o -c /home/vesita/library/code/pool/src/cross_message.cpp
+
+CMakeFiles/pool.dir/src/cross_message.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pool.dir/src/cross_message.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vesita/library/code/pool/src/cross_message.cpp > CMakeFiles/pool.dir/src/cross_message.cpp.i
+
+CMakeFiles/pool.dir/src/cross_message.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/src/cross_message.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/src/cross_message.cpp -o CMakeFiles/pool.dir/src/cross_message.cpp.s
+
+CMakeFiles/pool.dir/src/ftree.cpp.o: CMakeFiles/pool.dir/flags.make
+CMakeFiles/pool.dir/src/ftree.cpp.o: /home/vesita/library/code/pool/src/ftree.cpp
+CMakeFiles/pool.dir/src/ftree.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pool.dir/src/ftree.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/ftree.cpp.o -MF CMakeFiles/pool.dir/src/ftree.cpp.o.d -o CMakeFiles/pool.dir/src/ftree.cpp.o -c /home/vesita/library/code/pool/src/ftree.cpp
+
+CMakeFiles/pool.dir/src/ftree.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pool.dir/src/ftree.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vesita/library/code/pool/src/ftree.cpp > CMakeFiles/pool.dir/src/ftree.cpp.i
+
+CMakeFiles/pool.dir/src/ftree.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/src/ftree.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/src/ftree.cpp -o CMakeFiles/pool.dir/src/ftree.cpp.s
+
+CMakeFiles/pool.dir/src/linguist_runner.cpp.o: CMakeFiles/pool.dir/flags.make
+CMakeFiles/pool.dir/src/linguist_runner.cpp.o: /home/vesita/library/code/pool/src/linguist_runner.cpp
+CMakeFiles/pool.dir/src/linguist_runner.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pool.dir/src/linguist_runner.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/linguist_runner.cpp.o -MF CMakeFiles/pool.dir/src/linguist_runner.cpp.o.d -o CMakeFiles/pool.dir/src/linguist_runner.cpp.o -c /home/vesita/library/code/pool/src/linguist_runner.cpp
+
+CMakeFiles/pool.dir/src/linguist_runner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pool.dir/src/linguist_runner.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vesita/library/code/pool/src/linguist_runner.cpp > CMakeFiles/pool.dir/src/linguist_runner.cpp.i
+
+CMakeFiles/pool.dir/src/linguist_runner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/src/linguist_runner.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/src/linguist_runner.cpp -o CMakeFiles/pool.dir/src/linguist_runner.cpp.s
+
 CMakeFiles/pool.dir/src/main.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/src/main.cpp.o: /home/vesita/library/code/pool/src/main.cpp
 CMakeFiles/pool.dir/src/main.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/pool.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pool.dir/src/main.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/main.cpp.o -MF CMakeFiles/pool.dir/src/main.cpp.o.d -o CMakeFiles/pool.dir/src/main.cpp.o -c /home/vesita/library/code/pool/src/main.cpp
 
 CMakeFiles/pool.dir/src/main.cpp.i: cmake_force
@@ -168,7 +210,7 @@ CMakeFiles/pool.dir/src/main.cpp.s: cmake_force
 CMakeFiles/pool.dir/src/manager.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/src/manager.cpp.o: /home/vesita/library/code/pool/src/manager.cpp
 CMakeFiles/pool.dir/src/manager.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/pool.dir/src/manager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pool.dir/src/manager.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/manager.cpp.o -MF CMakeFiles/pool.dir/src/manager.cpp.o.d -o CMakeFiles/pool.dir/src/manager.cpp.o -c /home/vesita/library/code/pool/src/manager.cpp
 
 CMakeFiles/pool.dir/src/manager.cpp.i: cmake_force
@@ -182,7 +224,7 @@ CMakeFiles/pool.dir/src/manager.cpp.s: cmake_force
 CMakeFiles/pool.dir/src/methods.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/src/methods.cpp.o: /home/vesita/library/code/pool/src/methods.cpp
 CMakeFiles/pool.dir/src/methods.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/pool.dir/src/methods.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pool.dir/src/methods.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/methods.cpp.o -MF CMakeFiles/pool.dir/src/methods.cpp.o.d -o CMakeFiles/pool.dir/src/methods.cpp.o -c /home/vesita/library/code/pool/src/methods.cpp
 
 CMakeFiles/pool.dir/src/methods.cpp.i: cmake_force
@@ -193,10 +235,52 @@ CMakeFiles/pool.dir/src/methods.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/src/methods.cpp.s"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/src/methods.cpp -o CMakeFiles/pool.dir/src/methods.cpp.s
 
+CMakeFiles/pool.dir/src/mruby_runner.cpp.o: CMakeFiles/pool.dir/flags.make
+CMakeFiles/pool.dir/src/mruby_runner.cpp.o: /home/vesita/library/code/pool/src/mruby_runner.cpp
+CMakeFiles/pool.dir/src/mruby_runner.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pool.dir/src/mruby_runner.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/mruby_runner.cpp.o -MF CMakeFiles/pool.dir/src/mruby_runner.cpp.o.d -o CMakeFiles/pool.dir/src/mruby_runner.cpp.o -c /home/vesita/library/code/pool/src/mruby_runner.cpp
+
+CMakeFiles/pool.dir/src/mruby_runner.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pool.dir/src/mruby_runner.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vesita/library/code/pool/src/mruby_runner.cpp > CMakeFiles/pool.dir/src/mruby_runner.cpp.i
+
+CMakeFiles/pool.dir/src/mruby_runner.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/src/mruby_runner.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/src/mruby_runner.cpp -o CMakeFiles/pool.dir/src/mruby_runner.cpp.s
+
+CMakeFiles/pool.dir/src/pool_tool.cpp.o: CMakeFiles/pool.dir/flags.make
+CMakeFiles/pool.dir/src/pool_tool.cpp.o: /home/vesita/library/code/pool/src/pool_tool.cpp
+CMakeFiles/pool.dir/src/pool_tool.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pool.dir/src/pool_tool.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/pool_tool.cpp.o -MF CMakeFiles/pool.dir/src/pool_tool.cpp.o.d -o CMakeFiles/pool.dir/src/pool_tool.cpp.o -c /home/vesita/library/code/pool/src/pool_tool.cpp
+
+CMakeFiles/pool.dir/src/pool_tool.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pool.dir/src/pool_tool.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vesita/library/code/pool/src/pool_tool.cpp > CMakeFiles/pool.dir/src/pool_tool.cpp.i
+
+CMakeFiles/pool.dir/src/pool_tool.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/src/pool_tool.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/src/pool_tool.cpp -o CMakeFiles/pool.dir/src/pool_tool.cpp.s
+
+CMakeFiles/pool.dir/src/wopol.cpp.o: CMakeFiles/pool.dir/flags.make
+CMakeFiles/pool.dir/src/wopol.cpp.o: /home/vesita/library/code/pool/src/wopol.cpp
+CMakeFiles/pool.dir/src/wopol.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/pool.dir/src/wopol.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/src/wopol.cpp.o -MF CMakeFiles/pool.dir/src/wopol.cpp.o.d -o CMakeFiles/pool.dir/src/wopol.cpp.o -c /home/vesita/library/code/pool/src/wopol.cpp
+
+CMakeFiles/pool.dir/src/wopol.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/pool.dir/src/wopol.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vesita/library/code/pool/src/wopol.cpp > CMakeFiles/pool.dir/src/wopol.cpp.i
+
+CMakeFiles/pool.dir/src/wopol.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/pool.dir/src/wopol.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vesita/library/code/pool/src/wopol.cpp -o CMakeFiles/pool.dir/src/wopol.cpp.s
+
 CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o: pool_qmltyperegistrations.cpp
 CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o -MF CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o.d -o CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o -c /home/vesita/library/code/pool/build/pool_qmltyperegistrations.cpp
 
 CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.i: cmake_force
@@ -210,7 +294,7 @@ CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.s: cmake_force
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o: .qt/rcc/qrc_qmake_Pool.cpp
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o -MF CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o.d -o CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o -c /home/vesita/library/code/pool/build/.qt/rcc/qrc_qmake_Pool.cpp
 
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.i: cmake_force
@@ -224,7 +308,7 @@ CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.s: cmake_force
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o: .rcc/qmlcache/pool_qmlcache_loader.cpp
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o -MF CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o.d -o CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o -c /home/vesita/library/code/pool/build/.rcc/qmlcache/pool_qmlcache_loader.cpp
 
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.i: cmake_force
@@ -238,7 +322,7 @@ CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.s: cmake_force
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o: .rcc/qmlcache/pool_ssc/pool_qml.cpp
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o -MF CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o.d -o CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.o -c /home/vesita/library/code/pool/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp
 
 CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.i: cmake_force
@@ -252,7 +336,7 @@ CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_ssc/pool_qml.cpp.s: cmake_force
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o: CMakeFiles/pool.dir/flags.make
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o: .qt/rcc/qrc_pool_raw_qml_0.cpp
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o: CMakeFiles/pool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o"
 	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o -MF CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o.d -o CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.o -c /home/vesita/library/code/pool/build/.qt/rcc/qrc_pool_raw_qml_0.cpp
 
 CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.i: cmake_force
@@ -266,9 +350,15 @@ CMakeFiles/pool.dir/build/.qt/rcc/qrc_pool_raw_qml_0.cpp.s: cmake_force
 # Object files for target pool
 pool_OBJECTS = \
 "CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.o" \
+"CMakeFiles/pool.dir/src/cross_message.cpp.o" \
+"CMakeFiles/pool.dir/src/ftree.cpp.o" \
+"CMakeFiles/pool.dir/src/linguist_runner.cpp.o" \
 "CMakeFiles/pool.dir/src/main.cpp.o" \
 "CMakeFiles/pool.dir/src/manager.cpp.o" \
 "CMakeFiles/pool.dir/src/methods.cpp.o" \
+"CMakeFiles/pool.dir/src/mruby_runner.cpp.o" \
+"CMakeFiles/pool.dir/src/pool_tool.cpp.o" \
+"CMakeFiles/pool.dir/src/wopol.cpp.o" \
 "CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o" \
 "CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o" \
 "CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o" \
@@ -279,9 +369,15 @@ pool_OBJECTS = \
 pool_EXTERNAL_OBJECTS =
 
 pool: CMakeFiles/pool.dir/pool_autogen/mocs_compilation.cpp.o
+pool: CMakeFiles/pool.dir/src/cross_message.cpp.o
+pool: CMakeFiles/pool.dir/src/ftree.cpp.o
+pool: CMakeFiles/pool.dir/src/linguist_runner.cpp.o
 pool: CMakeFiles/pool.dir/src/main.cpp.o
 pool: CMakeFiles/pool.dir/src/manager.cpp.o
 pool: CMakeFiles/pool.dir/src/methods.cpp.o
+pool: CMakeFiles/pool.dir/src/mruby_runner.cpp.o
+pool: CMakeFiles/pool.dir/src/pool_tool.cpp.o
+pool: CMakeFiles/pool.dir/src/wopol.cpp.o
 pool: CMakeFiles/pool.dir/pool_qmltyperegistrations.cpp.o
 pool: CMakeFiles/pool.dir/build/.qt/rcc/qrc_qmake_Pool.cpp.o
 pool: CMakeFiles/pool.dir/build/.rcc/qmlcache/pool_qmlcache_loader.cpp.o
@@ -307,7 +403,7 @@ pool: /home/vesita/Qt/6.8.2/gcc_64/lib/libQt6Qml.so.6.8.2
 pool: /home/vesita/Qt/6.8.2/gcc_64/lib/libQt6Network.so.6.8.2
 pool: /home/vesita/Qt/6.8.2/gcc_64/lib/libQt6Core.so.6.8.2
 pool: CMakeFiles/pool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Linking CXX executable pool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/vesita/library/code/pool/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Linking CXX executable pool"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/pool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

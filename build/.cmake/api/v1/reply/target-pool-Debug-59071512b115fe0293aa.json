@@ -620,11 +620,17 @@
 				1,
 				2,
 				3,
+				4,
 				5,
 				6,
+				7,
 				8,
 				9,
-				10
+				11,
+				12,
+				14,
+				15,
+				16
 			]
 		}
 	],
@@ -777,45 +783,51 @@
 				1,
 				2,
 				3,
+				4,
 				5,
 				6,
+				7,
 				8,
 				9,
-				10
+				11,
+				12,
+				14,
+				15,
+				16
 			]
 		},
 		{
 			"name" : "",
 			"sourceIndexes" : 
 			[
-				4,
-				7,
-				11,
-				21,
-				22,
-				23,
-				24,
-				25,
-				26,
+				10,
+				13,
+				17,
 				27,
 				28,
 				29,
-				30
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				12,
-				13,
-				14,
-				15,
-				16,
-				17,
 				18,
 				19,
-				20
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26
 			]
 		}
 	],
@@ -826,6 +838,24 @@
 			"compileGroupIndex" : 0,
 			"isGenerated" : true,
 			"path" : "build/pool_autogen/mocs_compilation.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/cross_message.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/ftree.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/linguist_runner.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
@@ -844,6 +874,24 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "src/methods.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/mruby_runner.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/pool_tool.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "src/wopol.cpp",
 			"sourceGroupIndex" : 0
 		},
 		{
