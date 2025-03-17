@@ -492,6 +492,30 @@ src/cross_message.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/cross_message.cpp.s
 .PHONY : src/cross_message.cpp.s
 
+src/fast_words.o: src/fast_words.cpp.o
+.PHONY : src/fast_words.o
+
+# target to build an object file
+src/fast_words.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/fast_words.cpp.o
+.PHONY : src/fast_words.cpp.o
+
+src/fast_words.i: src/fast_words.cpp.i
+.PHONY : src/fast_words.i
+
+# target to preprocess a source file
+src/fast_words.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/fast_words.cpp.i
+.PHONY : src/fast_words.cpp.i
+
+src/fast_words.s: src/fast_words.cpp.s
+.PHONY : src/fast_words.s
+
+# target to generate assembly for a file
+src/fast_words.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/fast_words.cpp.s
+.PHONY : src/fast_words.cpp.s
+
 src/ftree.o: src/ftree.cpp.o
 .PHONY : src/ftree.o
 
@@ -516,30 +540,6 @@ src/ftree.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/ftree.cpp.s
 .PHONY : src/ftree.cpp.s
 
-src/linguist_runner.o: src/linguist_runner.cpp.o
-.PHONY : src/linguist_runner.o
-
-# target to build an object file
-src/linguist_runner.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/linguist_runner.cpp.o
-.PHONY : src/linguist_runner.cpp.o
-
-src/linguist_runner.i: src/linguist_runner.cpp.i
-.PHONY : src/linguist_runner.i
-
-# target to preprocess a source file
-src/linguist_runner.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/linguist_runner.cpp.i
-.PHONY : src/linguist_runner.cpp.i
-
-src/linguist_runner.s: src/linguist_runner.cpp.s
-.PHONY : src/linguist_runner.s
-
-# target to generate assembly for a file
-src/linguist_runner.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/linguist_runner.cpp.s
-.PHONY : src/linguist_runner.cpp.s
-
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -563,30 +563,6 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
-
-src/manager.o: src/manager.cpp.o
-.PHONY : src/manager.o
-
-# target to build an object file
-src/manager.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/manager.cpp.o
-.PHONY : src/manager.cpp.o
-
-src/manager.i: src/manager.cpp.i
-.PHONY : src/manager.i
-
-# target to preprocess a source file
-src/manager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/manager.cpp.i
-.PHONY : src/manager.cpp.i
-
-src/manager.s: src/manager.cpp.s
-.PHONY : src/manager.s
-
-# target to generate assembly for a file
-src/manager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/manager.cpp.s
-.PHONY : src/manager.cpp.s
 
 src/methods.o: src/methods.cpp.o
 .PHONY : src/methods.o
@@ -660,6 +636,54 @@ src/pool_tool.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/pool_tool.cpp.s
 .PHONY : src/pool_tool.cpp.s
 
+src/thread_vesita.o: src/thread_vesita.cpp.o
+.PHONY : src/thread_vesita.o
+
+# target to build an object file
+src/thread_vesita.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/thread_vesita.cpp.o
+.PHONY : src/thread_vesita.cpp.o
+
+src/thread_vesita.i: src/thread_vesita.cpp.i
+.PHONY : src/thread_vesita.i
+
+# target to preprocess a source file
+src/thread_vesita.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/thread_vesita.cpp.i
+.PHONY : src/thread_vesita.cpp.i
+
+src/thread_vesita.s: src/thread_vesita.cpp.s
+.PHONY : src/thread_vesita.s
+
+# target to generate assembly for a file
+src/thread_vesita.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/thread_vesita.cpp.s
+.PHONY : src/thread_vesita.cpp.s
+
+src/vesita.o: src/vesita.cpp.o
+.PHONY : src/vesita.o
+
+# target to build an object file
+src/vesita.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/vesita.cpp.o
+.PHONY : src/vesita.cpp.o
+
+src/vesita.i: src/vesita.cpp.i
+.PHONY : src/vesita.i
+
+# target to preprocess a source file
+src/vesita.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/vesita.cpp.i
+.PHONY : src/vesita.cpp.i
+
+src/vesita.s: src/vesita.cpp.s
+.PHONY : src/vesita.s
+
+# target to generate assembly for a file
+src/vesita.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/pool.dir/build.make CMakeFiles/pool.dir/src/vesita.cpp.s
+.PHONY : src/vesita.cpp.s
+
 src/wopol.o: src/wopol.cpp.o
 .PHONY : src/wopol.o
 
@@ -729,18 +753,15 @@ help:
 	@echo "... src/cross_message.o"
 	@echo "... src/cross_message.i"
 	@echo "... src/cross_message.s"
+	@echo "... src/fast_words.o"
+	@echo "... src/fast_words.i"
+	@echo "... src/fast_words.s"
 	@echo "... src/ftree.o"
 	@echo "... src/ftree.i"
 	@echo "... src/ftree.s"
-	@echo "... src/linguist_runner.o"
-	@echo "... src/linguist_runner.i"
-	@echo "... src/linguist_runner.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
-	@echo "... src/manager.o"
-	@echo "... src/manager.i"
-	@echo "... src/manager.s"
 	@echo "... src/methods.o"
 	@echo "... src/methods.i"
 	@echo "... src/methods.s"
@@ -750,6 +771,12 @@ help:
 	@echo "... src/pool_tool.o"
 	@echo "... src/pool_tool.i"
 	@echo "... src/pool_tool.s"
+	@echo "... src/thread_vesita.o"
+	@echo "... src/thread_vesita.i"
+	@echo "... src/thread_vesita.s"
+	@echo "... src/vesita.o"
+	@echo "... src/vesita.i"
+	@echo "... src/vesita.s"
 	@echo "... src/wopol.o"
 	@echo "... src/wopol.i"
 	@echo "... src/wopol.s"

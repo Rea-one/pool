@@ -1,27 +1,8 @@
 #include "mruby_runner.h"
 
 
-void mruby_runner::start()
-{
-    run_request = true;
-
-    task = std::thread([this]()
-    {
-        core_task();
-    });
-}
-
-void mruby_runner::stop()
-{
-    run_request = false;
-    task.join();
-}
-
 void mruby_runner::core_task()
 {
-    mrb_state *mrb = mrb_open();
-    auto_load(mrb);
-
     while (run_request)
     {
         std::unique_lock<std::mutex> lock(io_lock);
@@ -61,7 +42,8 @@ void mruby_runner::auto_load(mrb_state* mrb)
 {
     for (auto& lib : libs)
     {
-        mrb_load_string(mrb, (std::string("require '") + lib + "'").c_str());
+        lib = "$LOAD_PATH << '" + lib + "'";
+        mrb_load_string(mrb, lib.c_str());
     }
 
     for (auto& script : scripts)

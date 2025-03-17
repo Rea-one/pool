@@ -72,6 +72,7 @@
         "variant": "cpp",
         "qtcore": "cpp",
         "qqmlapplicationengine": "cpp",
-        "qtquick": "cpp"
+        "qtquick": "cpp",
+        "set": "cpp"
     }
 }

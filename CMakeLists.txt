@@ -2,9 +2,9 @@ cmake_minimum_required(VERSION 3.20)
 project(pool VERSION 0.1.1 LANGUAGES CXX)
 
 # 标准设置
-set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
-set(CMAKE_C_STANDARD 11)
+set(CMAKE_C_STANDARD 17)
 set(CMAKE_C_STANDARD_REQUIRED ON)
 
 
@@ -34,7 +34,7 @@ file (GLOB_RECURSE source
     ${src}/*.cpp
     ${src}/*.c
 )
-find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Quick)
+find_package(Qt6 REQUIRED COMPONENTS Core Gui Widgets Quick Qml)
 
 
 # 自动处理 Qt 元对象系统
@@ -49,6 +49,7 @@ add_executable(${PROJECT_NAME}
 
 target_include_directories(${PROJECT_NAME} PRIVATE
     ${hdr}
+    ${ssc}
     ${mruby_DIR}/include
     ${tree_sitter_DIR}/include
     ${tree_sitter_c_DIR}/src
@@ -62,6 +63,7 @@ target_link_libraries(${PROJECT_NAME} PRIVATE
     Qt6::Gui
     Qt6::Widgets
     Qt6::Quick
+    Qt6::Qml
 )
 
 

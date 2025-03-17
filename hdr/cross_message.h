@@ -1,23 +1,47 @@
 #include "methods.h"
 
 
-class bist
-{
-    std::string dark{};
-    std::string light{};
-
-    bist(std::string dark, std::string light);
-};
-
-
 class cross_message
 {
-    public:
-    std::string state_message{};
-    std::vector<bool> states{};
-    std::vector<std::string> messgaes{};
+public:
+    enum class io_status { ready_for_read, ready_for_write };
+    std::atomic<io_status> ready{io_status::ready_for_write};
+    std::atomic<std::shared_ptr<std::string>> message_ptr; // 原子智能指针方案
 
-    std::mutex cm_lock{};
-    void set(std::string state_message, std::vector<std::string> messgaes);
-    void get(std::string& state_message, std::vector<std::string>& messgaes);
+    void set(const std::string& mess);
+    std::string get();
 };
+
+/*
+in easy
+输入宽松通信机
+*/
+class ie_message: public cross_message
+{
+public:
+    void set(const std::string& mess);
+};
+
+
+/*
+out easy
+输出宽松通信机
+*/
+class oe_message: public cross_message
+{
+public:
+    std::string get();
+};
+
+
+/*
+loose
+宽松通信机
+*/
+class loose_message: public cross_message
+{
+public:
+    void set(const std::string& mess);
+    std::string get();
+};
+

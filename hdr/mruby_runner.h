@@ -13,14 +13,13 @@ class mruby_runner
     std::condition_variable cv{};
     std::mutex io_lock{};
     bool run_request = false;
-    std::thread task{};
+    mrb_state *mrb{};
     std::vector<std::string> libs{};
     std::vector<std::string> scripts{};
     std::queue<std::pair<std::string, bool>> ins{};
     std::queue<std::pair<std::string, bool>> outs{};
     
-    void start();
-    void stop();
+    public:
     void core_task();
 
     void auto_load(mrb_state* mrb);

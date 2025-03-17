@@ -1,0 +1,195 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "pool",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "all_aotstats::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_aotstats-Debug-4d53dc731e11597d657e.json",
+					"name" : "all_aotstats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint-Debug-f5212a19533795c73af7.json",
+					"name" : "all_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_json-Debug-3fbd6774c477d2ecbd72.json",
+					"name" : "all_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmllint_module-Debug-f717a6586a5b3500bdfc.json",
+					"name" : "all_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "all_qmltyperegistrations::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-all_qmltyperegistrations-Debug-5e81353e243ebd1c55de.json",
+					"name" : "all_qmltyperegistrations",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "module_pool_aotstats_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-module_pool_aotstats_target-Debug-e196b2d252da4ae0e21c.json",
+					"name" : "module_pool_aotstats_target",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool-Debug-e72434f4942230950ce5.json",
+					"name" : "pool",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_autogen-Debug-5d76146c7d652c96403f.json",
+					"name" : "pool_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_autogen_timestamp_deps-Debug-370b1970b3f722b3da37.json",
+					"name" : "pool_autogen_timestamp_deps",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_copy_qml::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_copy_qml-Debug-09bb025a55343f308c93.json",
+					"name" : "pool_copy_qml",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_copy_res::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_copy_res-Debug-ee86e129f4bd5ac1d3c9.json",
+					"name" : "pool_copy_res",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_other_files::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_other_files-Debug-bf23fd8253a5cdaf8528.json",
+					"name" : "pool_other_files",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_qmllint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_qmllint-Debug-d558bf683bcd04a46a87.json",
+					"name" : "pool_qmllint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_qmllint_json::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_qmllint_json-Debug-25cb42a82534c72df88a.json",
+					"name" : "pool_qmllint_json",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_qmllint_module::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_qmllint_module-Debug-b17c3922d5a4e316773b.json",
+					"name" : "pool_qmllint_module",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pool_qmltyperegistration::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pool_qmltyperegistration-Debug-7a2298a0f9f4a65b8d92.json",
+					"name" : "pool_qmltyperegistration",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vesita/library/code/pool/build",
+		"source" : "/home/vesita/library/code/pool"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

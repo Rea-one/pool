@@ -1271,6 +1271,7 @@
 	"MOC_INCLUDES" : 
 	[
 		"/home/vesita/library/code/pool/hdr",
+		"/home/vesita/library/code/pool/ssc",
 		"/home/vesita/library/github/mruby/build/host/include",
 		"/home/vesita/library/github/tree-sitter/lib/include",
 		"/home/vesita/library/github/tree-sitter-c/src",
@@ -1317,7 +1318,7 @@
 	"MOC_PREDEFS_CMD" : 
 	[
 		"/usr/bin/g++",
-		"-std=gnu++17",
+		"-std=gnu++20",
 		"-dM",
 		"-E",
 		"-c",
@@ -1344,13 +1345,14 @@
 	"SOURCES" : 
 	[
 		[ "/home/vesita/library/code/pool/src/cross_message.cpp", "MU", null ],
+		[ "/home/vesita/library/code/pool/src/fast_words.cpp", "MU", null ],
 		[ "/home/vesita/library/code/pool/src/ftree.cpp", "MU", null ],
-		[ "/home/vesita/library/code/pool/src/linguist_runner.cpp", "MU", null ],
 		[ "/home/vesita/library/code/pool/src/main.cpp", "MU", null ],
-		[ "/home/vesita/library/code/pool/src/manager.cpp", "MU", null ],
 		[ "/home/vesita/library/code/pool/src/methods.cpp", "MU", null ],
 		[ "/home/vesita/library/code/pool/src/mruby_runner.cpp", "MU", null ],
 		[ "/home/vesita/library/code/pool/src/pool_tool.cpp", "MU", null ],
+		[ "/home/vesita/library/code/pool/src/thread_vesita.cpp", "MU", null ],
+		[ "/home/vesita/library/code/pool/src/vesita.cpp", "MU", null ],
 		[ "/home/vesita/library/code/pool/src/wopol.cpp", "MU", null ]
 	],
 	"UIC_OPTIONS" : [],
