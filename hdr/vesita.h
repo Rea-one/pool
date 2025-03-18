@@ -27,5 +27,9 @@ class vesita: public QObject
 
     std::shared_ptr<ftree> ftree_tar{};
     std::shared_ptr<mruby_runner> mruby_tar{};
-    std::vector<std::shared_ptr<wopol>> wopol_tar{};
+    std::unordered_map<std::string, std::shared_ptr<wopol>> wopol_tar{};
+
+    void clicked_file(std::string file_path);
+
+    void clicked_file{};
 };

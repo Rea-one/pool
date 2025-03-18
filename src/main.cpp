@@ -5,7 +5,7 @@
 
 int main(int argc, char *argv[])
 {
-    vesita *vesita_tar = new vesita(nullptr);
+    auto vesita_tar = std::make_shared<vesita>{};
 
     QCoreApplication::setAttribute(Qt::AA_EnableHighDpiScaling);
 
@@ -16,5 +16,6 @@ int main(int argc, char *argv[])
     QQmlApplicationEngine qml_engine;
 
     qml_engine.load(QUrl(QStringLiteral("qrc:/ssc/pool.qml")));
+    qml_engine.registerSingletonType<vesita>("vesita", 1, 0, "vesita", [vesita_tar](QQmlEngine*, QJSEngine*) -> QObject* { return vesita_tar.get(); });
     return app.exec();
 }

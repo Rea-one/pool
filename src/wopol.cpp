@@ -60,7 +60,7 @@ void token_line::push_back(token* tar)
 
 void editor::add_token(std::string key, std::string type, int line_index)
 {
-    token *tar = new token();
+    auto tar = std::make_unique<token>{};
     tar->key = key;
     tar->type = type;
     tar->index = words[line_index].size();
@@ -70,6 +70,9 @@ void editor::add_token(std::string key, std::string type, int line_index)
 wopol::wopol()
 {
     parser = ts_parser_new();
+    lang_map["c"] = &c_keep_keys;
+    lang_map["cpp"] = &cpp_keep_keys;
+    lang_map["python"] = &python_keep_keys;
 }
 
 void wopol::register_lang(std::string lang_name, const TSLanguage* lang)
@@ -78,10 +81,6 @@ void wopol::register_lang(std::string lang_name, const TSLanguage* lang)
 }
 void wopol::init(std::string file_path, std::string lang)
 {
-
-    lang_map["c"] = &c_keep_keys;
-    lang_map["cpp"] = &cpp_keep_keys;
-    lang_map["python"] = &python_keep_keys;
     file_tar = file_path;
     keep_keys.init(*lang_map[lang]);
     keep_keys.build_tree();
@@ -92,19 +91,7 @@ void wopol::init(std::string file_path, std::string lang)
 void wopol::read_file(std::string &file_path)
 {
     file_tar = file_path;
-    std::ifstream file(file_path);
-    if (!file.is_open())
-    {
-        std::cout << "无法打开目标文件" << std::endl;
-        return;
-    }
-    while (file.good())
-    {
-        std::string line;
-        getline(file, line);
-        words += line;
-    }
-    file.close();
+    read_file();
 }
 
 void wopol::read_file()
@@ -115,28 +102,23 @@ void wopol::read_file()
         std::cout << "无法打开目标文件" << std::endl;
         return;
     }
-    while (file.good())
+    threads.enqueue([this]()
     {
-        std::string line;
-        getline(file, line);
-        words += line;
-    }
-    file.close();
+        while (file.good())
+        {
+            std::unique_lock<std::mutex> lock(mutex);
+            std::string line;
+            getline(file, line);
+            words += line;
+        }
+        file.close();
+    });
 }
 
 void wopol::write_file(std::string &file_path)
 {
-    std::ofstream file(file_path);
-    if (!file.is_open())
-    {
-        std::cout << "无法打开目标文件" << std::endl;
-        return;
-    }
-    for (auto &word : words)
-    {
-        file << word << std::endl;
-    }
-    file.close();
+    file_tar = file_path;
+    write_file();
 }
 
 void wopol::write_file()
@@ -147,21 +129,60 @@ void wopol::write_file()
         std::cout << "无法打开目标文件" << std::endl;
         return;
     }
-    for (auto &word : words)
+    threads.enqueue([this]()
     {
-        file << word << std::endl;
-    }
-    file.close();
+        for (auto &word : words)
+        {
+            file << word << std::endl;
+        }
+        file.close();
+    });
 }
 
 void wopol::build_AST()
 {
-    std::string code = "";
-    for (auto &word : words)
+    threads.enqueue([this]()
     {
-        code += word + "\n";
-    }
-    tree = ts_parser_parse_string(parser, nullptr, code.c_str(), code.size());
-    root_node = &ts_tree_root_node(tree);
-    cursor = &ts_tree_cursor_new(*root_node);
+        std::string code = "";
+        for (auto &word : words)
+        {
+            code += word + "\n";
+        }
+        tree.reset(ts_parser_parse_string(parser, nullptr, code.c_str(), code.size()));
+        root_node = &ts_tree_root_node(tree);
+        cursor = &ts_tree_cursor_new(*root_node);
+    });
+}
+
+void wopol::generate_tokens()
+{
+    // 遍历语法树节点（简化示例）
+    TSNode node = *root_node;
+    TSTreeCursor cursor = ts_tree_cursor_new(node);
+    
+    do {
+        TSNode current = ts_tree_cursor_current_node(&cursor);
+        
+        // 获取 token 信息
+        std::string type = ts_node_type(current);
+        std::string text = ts_node_string(current); // 获取节点对应源码文本
+        TSPoint start = ts_node_start_point(current);
+        TSPoint end = ts_node_end_point(current);
+        
+        // 判断是否为保留字（结合你的 lang_map）
+        if (type == "identifier" && keep_keys.contains(text)) {
+            type = "keyword"; // 标记为关键字类型
+        }
+        
+        // 添加到你的 token 系统（修改你的 add_token 方法）
+        add_token(text, type, start.row);
+        
+    } while (ts_tree_cursor_goto_next_sibling(&cursor));
+    
+    ts_tree_cursor_delete(&cursor);
+}
+
+void wopol::key_link()
+{
+    
 }

@@ -4,9 +4,12 @@
 class ftree: public QObject
 {
     Q_OBJECT
+public:
     explicit ftree(QObject *parent);
     ~ftree();
 
-    std::string state_message;
     QFileSystemModel model;
+
+    void init();
+    std::string get_path();
 };
