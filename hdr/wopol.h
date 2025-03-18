@@ -54,10 +54,10 @@ class wopol: public QObject
     std::string words{};
     fwords keep_keys{};
     std::unordered_map<std::string, std::vector<std::string>*> lang_map{};
-    TSParser *parser{};
-    TSTree *tree{};
-    TSNode *root_node{};
-    TSTreeCursor *cursor{};
+    std::unique_ptr<TSParser> *parser{};
+    std::unique_ptr<TSTree> *tree{};
+    std::unique_ptr<TSNode> *root_node{};
+    std::unique_ptr<TSTreeCursor> *cursor{};
 
     void register_lang(std::string lang_name, const TSLanguage* lang);
     void init(std::string file_path, std::string lang);

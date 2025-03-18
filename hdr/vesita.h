@@ -21,8 +21,9 @@ class vesita: public QObject
     explicit vesita();
     ~vesita();
 
-    std::vector<std::vector<cross_message>> messages;
-    std::vector<std::future<void>> tasks;
+    crsm messages{};
+    vth threads{};
+    std::vector<std::unique_ptr<std::jthread>> stays{};
 
     std::shared_ptr<ftree> ftree_tar{};
     std::shared_ptr<mruby_runner> mruby_tar{};

@@ -1,3 +1,7 @@
+
+
+// mruby_runner.h
+#pragma once
 #include "mruby.h"
 #include "mruby/compile.h"
 #include "mruby/value.h"
@@ -5,30 +9,58 @@
 #include "mruby/string.h"
 #include "mruby/object.h"
 #include "mruby/class.h"
+#include <atomic>
+#include <future>
+#include <mutex>
+#include <queue>
+#include <unordered_map>
+#include <vector>
+#include <string>
+#include <utility>
+#include <memory>
+#include <condition_variable>
 
-#include "methods.h"
+class mruby_runner {
+public:
+    explicit mruby_runner();
+    ~mruby_runner();
 
-class mruby_runner
-{
-    std::condition_variable cv{};
-    std::mutex io_lock{};
-    bool run_request = false;
-    mrb_state *mrb{};
-    std::vector<std::string> libs{};
-    std::vector<std::string> scripts{};
-    std::queue<std::pair<std::string, bool>> ins{};
-    std::queue<std::pair<std::string, bool>> outs{};
-    
-    public:
-    void core_task();
+    // 异步执行脚本接口
+    [[nodiscard]] std::future<std::string> async_run_script(const std::string& input);
 
-    void auto_load(mrb_state* mrb);
+    // 资源管理
+    void add_library(std::string lib_path, std::string lib_name);
     void add_script(std::string script_path);
-    void add_lib(std::string lib_path);
 
-    void set_input(std::string input);
-    std::string get_output();
+    // 禁止拷贝和移动
+    mruby_runner(const mruby_runner&) = delete;
+    mruby_runner& operator=(const mruby_runner&) = delete;
+
+private:
+    struct execution_context {
+        std::string input;
+        std::promise<std::string> promise;
+    };
+
+    // 线程控制
+    std::jthread worker_;
+    std::stop_source stop_source_;
+
+    // MRuby环境
+    std::unique_ptr(mrb_state) mrb_{nullptr};
+
+    // 资源存储
+    std::vector<std::pair<std::string, std::string>> libraries_;
+    std::vector<std::string> scripts_;
+
+    // 任务队列
+    std::mutex queue_mutex_;
+    std::queue<execution_context> request_queue_;
+    std::condition_variable_any queue_cv_;
+
+    // 核心执行逻辑
+    void core_loop(std::stop_token st);
+    void initialize_mruby_env();
+    void load_resources();
+    void safe_execute_script(const std::string& input, std::promise<std::string>& result_promise);
 };
-
-
-mrb_value convert_to_mrb_array(mrb_state* mrb, const std::vector<std::string>& vec);
